@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-08",
+  "repository": "https://github.com/liuyongchao/nesma-gbt42588-skill",
+  "skill_url": "https://github.com/liuyongchao/nesma-gbt42588-skill/tree/main/skills/nesma-gbt42588",
+  "verified_source_commit": "a64454148dca353bc9fa29d2aae8a9a1fca16022",
+  "method": "Codex skill-installer download mode, anonymous GitHub codeload, isolated temporary destination",
+  "github_token_used": false,
+  "installation_succeeded": true,
+  "runtime_files": 27,
+  "all_runtime_sha256_match_tested_release": true,
+  "zip_content_matches_runtime": true,
+  "skill_creator_validation": "Skill is valid!",
+  "cangjie_validation": {"errors": 0, "warnings": 0},
+  "calculator_smoke": {
+    "input": {"operation": "indicative", "model": "conceptual", "ilf": 2, "elf": 1},
+    "status": "calculated",
+    "total_fp": 85
+  },
+  "scope": "Public installation path, downloaded file integrity, structure and executable calculator; host automatic discovery and all semantic branches are not implied."
+}

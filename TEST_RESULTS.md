@@ -2,6 +2,17 @@
 
 测试版本：`nesma-gbt42588`，单入口、14 张能力卡；计算器 `1.0.1`。测试完成日期：2026-10-08。定位为**限定范围试用草稿**，六组来源问题仍需按各自边界复核。
 
+## GitHub 安装验证（2026-10-08）
+
+已用 Codex 自带 `skill-installer` 从[公开技能目录](https://github.com/liuyongchao/nesma-gbt42588-skill/tree/main/skills/nesma-gbt42588)执行匿名下载安装，安装目标为隔离的临时测试目录。下载过程未使用 GitHub 令牌。
+
+- 27 个完整技能文件均已获取，逐文件 SHA256 与已测发布版本一致。
+- 安装后的技能通过 skill-creator 校验，以及 cangjie 的格式/引用校验（0 errors、0 warnings）。
+- 实际运行下载后的计算器：概念模型 2 ILF、1 ELF，返回 `calculated`、85 FP。
+- ZIP 内容与可安装目录逐文件一致。此项证明公开下载、目录完整性和计算器运行；不代替下述语义测试，也不声称已测试所有宿主的自动发现。
+
+结构化记录见[安装验证记录](audit/installation-verification.json)。
+
 ## 已完成的验证
 
 | 验证层 | 完成数 | 结果 | 证明范围 |
