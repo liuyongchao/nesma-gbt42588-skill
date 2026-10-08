@@ -1,0 +1,903 @@
+{
+  "version": "0.1.0-bounded",
+  "tested_at": "2026-10-08",
+  "publication_note": "Public subset of existing test records; runtime files unchanged. No new test results are inferred from packaging.",
+  "new_skill": {
+    "planned": 28,
+    "completed": 28,
+    "mechanical_pass": 28,
+    "semantic_pass": 28,
+    "semantic_counts": {
+      "pass": 28
+    },
+    "cases": [
+      {
+        "case_id": "u01-normal",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u01-boundary",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 5,
+        "assertions_total": 5,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u02-normal",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u02-boundary",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u03-normal",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 6,
+        "assertions_total": 6,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u03-boundary",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u04-normal",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 7,
+        "assertions_total": 7,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u04-boundary",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u05-normal",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 5,
+        "assertions_total": 5,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u05-boundary",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u06-normal",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 7,
+        "assertions_total": 7,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u06-boundary",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u07-normal",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 5,
+        "assertions_total": 5,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u07-boundary",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u08-normal",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 6,
+        "assertions_total": 6,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u08-boundary",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 6,
+        "assertions_total": 6,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u09-normal",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u09-boundary",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 5,
+        "assertions_total": 5,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u10-normal",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 5,
+        "assertions_total": 5,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u10-boundary",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u11-normal",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 7,
+        "assertions_total": 7,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u11-boundary",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u12-normal",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 6,
+        "assertions_total": 6,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u12-boundary",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u13-normal",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 6,
+        "assertions_total": 6,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u13-boundary",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 5,
+        "assertions_total": 5,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u14-normal",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u14-boundary",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass"
+      }
+    ]
+  },
+  "without_skill": {
+    "planned": 28,
+    "completed": 28,
+    "mechanical_pass": 26,
+    "semantic_pass": 24,
+    "semantic_counts": {
+      "pass": 24,
+      "fail": 2,
+      "needs_review": 2
+    },
+    "cases": [
+      {
+        "case_id": "u01-normal",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u01-boundary",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 5,
+        "assertions_total": 5,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u02-normal",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u02-boundary",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u03-normal",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 6,
+        "assertions_total": 6,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u03-boundary",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": false,
+        "assertions_passed": 2,
+        "assertions_total": 4,
+        "semantic": "fail"
+      },
+      {
+        "case_id": "u04-normal",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": false,
+        "assertions_passed": 4,
+        "assertions_total": 7,
+        "semantic": "fail"
+      },
+      {
+        "case_id": "u04-boundary",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u05-normal",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 5,
+        "assertions_total": 5,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u05-boundary",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u06-normal",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 7,
+        "assertions_total": 7,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u06-boundary",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u07-normal",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 5,
+        "assertions_total": 5,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u07-boundary",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u08-normal",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 6,
+        "assertions_total": 6,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u08-boundary",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 6,
+        "assertions_total": 6,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u09-normal",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u09-boundary",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 5,
+        "assertions_total": 5,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u10-normal",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 5,
+        "assertions_total": 5,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u10-boundary",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u11-normal",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 7,
+        "assertions_total": 7,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u11-boundary",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u12-normal",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 6,
+        "assertions_total": 6,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u12-boundary",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "needs_review"
+      },
+      {
+        "case_id": "u13-normal",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 6,
+        "assertions_total": 6,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u13-boundary",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 5,
+        "assertions_total": 5,
+        "semantic": "needs_review"
+      },
+      {
+        "case_id": "u14-normal",
+        "label": "vB",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass"
+      },
+      {
+        "case_id": "u14-boundary",
+        "label": "vA",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass"
+      }
+    ]
+  },
+  "final_single_integration": {
+    "planned": 4,
+    "completed": 4,
+    "mechanical_pass": 4,
+    "semantic_pass": 4,
+    "results": [
+      {
+        "case_id": "single-integration-normal",
+        "role": "regression_after_entry_clarification",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 4,
+        "assertions_total": 4,
+        "semantic": "pass",
+        "output_sha256": "cd319d2f34d3fd560c60908a3b6c273cf0a5721ebde523f0fa6de414878d9e26"
+      },
+      {
+        "case_id": "single-integration-boundary",
+        "role": "regression_after_entry_clarification",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 5,
+        "assertions_total": 5,
+        "semantic": "pass",
+        "output_sha256": "a0b6d68595d04f4cca2b8a4addcb5dfa23613abb4f26229d89bd6484a691e6d6"
+      },
+      {
+        "case_id": "single-unseen-known-scope",
+        "role": "unseen_validation",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 5,
+        "assertions_total": 5,
+        "semantic": "pass",
+        "output_sha256": "51bfc87edc407fc6e669a4768e59f3e09d971ff00df570abb13445d2d70a62d7"
+      },
+      {
+        "case_id": "single-unseen-numeric-uncertainty",
+        "role": "unseen_validation",
+        "completed": true,
+        "mechanical_pass": true,
+        "assertions_passed": 5,
+        "assertions_total": 5,
+        "semantic": "pass",
+        "output_sha256": "ab70355a74c49ebfc0047213a0f1b80d52f04644b2f7cbad25c90bf23d2c0970"
+      }
+    ],
+    "context_limit": "One clean execution context for 4 cases, followed by separate independent semantic audit."
+  },
+  "initial_single_integration": {
+    "mechanical_pass": 2,
+    "semantic_pass": 1,
+    "semantic_needs_review": 1,
+    "resolution": "Entry loading and numeric/completeness stop wording clarified; old records retained; 2 regression + 2 unseen tasks executed."
+  },
+  "final_content_verification": {
+    "matches_tested_v2": true,
+    "tested_runtime_files": 26,
+    "runtime_checks": [
+      {
+        "path": "references/capabilities/nesma-count-review.md",
+        "tested_sha256": "8008e8c18406f2ca1ba81af530ee5e55ba712145c5c90c848f6dc7c5c8353e75",
+        "final_sha256": "8008e8c18406f2ca1ba81af530ee5e55ba712145c5c90c848f6dc7c5c8353e75",
+        "match": true
+      },
+      {
+        "path": "references/capabilities/nesma-data-functions.md",
+        "tested_sha256": "78061064358417365ce8d8281b39738b3a9dd96dfe862c22fd754718a42d4f74",
+        "final_sha256": "78061064358417365ce8d8281b39738b3a9dd96dfe862c22fd754718a42d4f74",
+        "match": true
+      },
+      {
+        "path": "references/capabilities/nesma-development-and-enhancement.md",
+        "tested_sha256": "62ce0cb1f7a909a9755f3598a73aad7788acc2a553382aecbf6d9e4dc23f33f0",
+        "final_sha256": "62ce0cb1f7a909a9755f3598a73aad7788acc2a553382aecbf6d9e4dc23f33f0",
+        "match": true
+      },
+      {
+        "path": "references/capabilities/nesma-elements-and-complexity.md",
+        "tested_sha256": "ea9b82bf2b6cac93cce4883988643a3fe1da0d2f2ad89a1e394f4c82fdb615cb",
+        "final_sha256": "ea9b82bf2b6cac93cce4883988643a3fe1da0d2f2ad89a1e394f4c82fdb615cb",
+        "match": true
+      },
+      {
+        "path": "references/capabilities/nesma-fp-aggregation.md",
+        "tested_sha256": "f232a0dd7627efd0ad34e30f3ef432e38c8088ec5828c680cf361bfa2149dc71",
+        "final_sha256": "f232a0dd7627efd0ad34e30f3ef432e38c8088ec5828c680cf361bfa2149dc71",
+        "match": true
+      },
+      {
+        "path": "references/capabilities/nesma-fpa-table-groups.md",
+        "tested_sha256": "39926963b355fbd31fe6a03932f951316d88ecaa0ea3522ece8ce1ee4d7a6dcd",
+        "final_sha256": "39926963b355fbd31fe6a03932f951316d88ecaa0ea3522ece8ce1ee4d7a6dcd",
+        "match": true
+      },
+      {
+        "path": "references/capabilities/nesma-growth-classification.md",
+        "tested_sha256": "a15434985e33497f346e66fec621eda4a8cbb870a66ba1bd4be1d7d88428c303",
+        "final_sha256": "a15434985e33497f346e66fec621eda4a8cbb870a66ba1bd4be1d7d88428c303",
+        "match": true
+      },
+      {
+        "path": "references/capabilities/nesma-incomplete-specifications.md",
+        "tested_sha256": "572a1ff795d8bd3f98eb6904695611355710f150f91bcee62df6ae4fd83e5aab",
+        "final_sha256": "572a1ff795d8bd3f98eb6904695611355710f150f91bcee62df6ae4fd83e5aab",
+        "match": true
+      },
+      {
+        "path": "references/capabilities/nesma-indicative-sizing.md",
+        "tested_sha256": "6bf997527ad0289e5a722799d81431f1c1022d2edbcc38c7533f3860d6691136",
+        "final_sha256": "6bf997527ad0289e5a722799d81431f1c1022d2edbcc38c7533f3860d6691136",
+        "match": true
+      },
+      {
+        "path": "references/capabilities/nesma-logical-data-groups.md",
+        "tested_sha256": "0ca6d85b7b0b1e911c20ded596fd3b0c2d35926912dfcc43cc6b921982ab459e",
+        "final_sha256": "0ca6d85b7b0b1e911c20ded596fd3b0c2d35926912dfcc43cc6b921982ab459e",
+        "match": true
+      },
+      {
+        "path": "references/capabilities/nesma-scope-and-method.md",
+        "tested_sha256": "881efffad99dd36f38bbfc78fc9e43dbd928465983d8e3c3bb07a2c140d36459",
+        "final_sha256": "881efffad99dd36f38bbfc78fc9e43dbd928465983d8e3c3bb07a2c140d36459",
+        "match": true
+      },
+      {
+        "path": "references/capabilities/nesma-shared-data.md",
+        "tested_sha256": "23d28e504daf0755f82603614996bbbd5e1f0381a200d72021455edadc2be540",
+        "final_sha256": "23d28e504daf0755f82603614996bbbd5e1f0381a200d72021455edadc2be540",
+        "match": true
+      },
+      {
+        "path": "references/capabilities/nesma-special-functions.md",
+        "tested_sha256": "3b2309304f13f9d61ff47a688aa18b6597cb6076cb19f53045e1a11536789989",
+        "final_sha256": "3b2309304f13f9d61ff47a688aa18b6597cb6076cb19f53045e1a11536789989",
+        "match": true
+      },
+      {
+        "path": "references/capabilities/nesma-transaction-functions.md",
+        "tested_sha256": "ab4a01d557075d763b7ac51f452119835dc7804c8c851b7d9950e7c09383f3ce",
+        "final_sha256": "ab4a01d557075d763b7ac51f452119835dc7804c8c851b7d9950e7c09383f3ce",
+        "match": true
+      },
+      {
+        "path": "references/capability-index.md",
+        "tested_sha256": "d4ca70c662758aba6a29015c7601d648be0d71d95a5942eccf52c4acdf9ef75c",
+        "final_sha256": "d4ca70c662758aba6a29015c7601d648be0d71d95a5942eccf52c4acdf9ef75c",
+        "match": true
+      },
+      {
+        "path": "references/cheatsheet.md",
+        "tested_sha256": "d57cbda2efc64b2efdbbf17b3215a743b6899b2d791656e53ca253620ed267de",
+        "final_sha256": "d57cbda2efc64b2efdbbf17b3215a743b6899b2d791656e53ca253620ed267de",
+        "match": true
+      },
+      {
+        "path": "references/glossary.md",
+        "tested_sha256": "f7b6490fd3475f67453491ce28e8704cd87de23694c0fecbdf5bfbe08fac657a",
+        "final_sha256": "f7b6490fd3475f67453491ce28e8704cd87de23694c0fecbdf5bfbe08fac657a",
+        "match": true
+      },
+      {
+        "path": "references/overview.md",
+        "tested_sha256": "2a2be1cde3bdc291b123315a77ebd0ec7487d6989139a0c3f0448ee733bfc717",
+        "final_sha256": "2a2be1cde3bdc291b123315a77ebd0ec7487d6989139a0c3f0448ee733bfc717",
+        "match": true
+      },
+      {
+        "path": "resources/calculator-examples.json",
+        "tested_sha256": "1bd4cfcb67f8f3c64c6e345e8ccc05c7e43bb7d628c1480d9c58290594553d52",
+        "final_sha256": "1bd4cfcb67f8f3c64c6e345e8ccc05c7e43bb7d628c1480d9c58290594553d52",
+        "match": true
+      },
+      {
+        "path": "resources/calculator-guide.md",
+        "tested_sha256": "e249f34cc1c65f066c788b291228904bd0ad6cfba4073b99133d752594754f6b",
+        "final_sha256": "e249f34cc1c65f066c788b291228904bd0ad6cfba4073b99133d752594754f6b",
+        "match": true
+      },
+      {
+        "path": "resources/failure-modes.json",
+        "tested_sha256": "fa1be17a97b279025bfd1d212471173be70a1cc93b4aa3990e64c55b912f9996",
+        "final_sha256": "fa1be17a97b279025bfd1d212471173be70a1cc93b4aa3990e64c55b912f9996",
+        "match": true
+      },
+      {
+        "path": "resources/measurement-template.json",
+        "tested_sha256": "4b4c8bd86f3efafa87172e5d3dbf12866ecab82fcbf0868062a03cef2325b005",
+        "final_sha256": "4b4c8bd86f3efafa87172e5d3dbf12866ecab82fcbf0868062a03cef2325b005",
+        "match": true
+      },
+      {
+        "path": "resources/nesma_calc.py",
+        "tested_sha256": "c33f0238d7057bb80dcab1f3251fa4aae91cc67c1b9d764b74e449269b469ebc",
+        "final_sha256": "c33f0238d7057bb80dcab1f3251fa4aae91cc67c1b9d764b74e449269b469ebc",
+        "match": true
+      },
+      {
+        "path": "resources/source-cases.json",
+        "tested_sha256": "8beda4ce607ea2f1000eec237310941b0b459107b959c8eeb6e4a21658416e22",
+        "final_sha256": "8beda4ce607ea2f1000eec237310941b0b459107b959c8eeb6e4a21658416e22",
+        "match": true
+      },
+      {
+        "path": "resources/source-issues.md",
+        "tested_sha256": "800639ba5cbedf5d6872b4332033e2b2a2c2cc4bf2b7f9a4968bfbb2bb69ddb8",
+        "final_sha256": "800639ba5cbedf5d6872b4332033e2b2a2c2cc4bf2b7f9a4968bfbb2bb69ddb8",
+        "match": true
+      },
+      {
+        "path": "SKILL.md",
+        "tested_sha256": "77d3e021ea578099b37074cf846dffa3daf5c6772d5d66a2afd95dbc1629fbd0",
+        "final_sha256": "77d3e021ea578099b37074cf846dffa3daf5c6772d5d66a2afd95dbc1629fbd0",
+        "match": true
+      }
+    ],
+    "representative_v1_cards_resources_unchanged": true,
+    "v1_checks": [
+      {
+        "path": "references/capabilities/nesma-count-review.md",
+        "v1_sha256": "8008e8c18406f2ca1ba81af530ee5e55ba712145c5c90c848f6dc7c5c8353e75",
+        "final_sha256": "8008e8c18406f2ca1ba81af530ee5e55ba712145c5c90c848f6dc7c5c8353e75",
+        "match": true
+      },
+      {
+        "path": "references/capabilities/nesma-data-functions.md",
+        "v1_sha256": "78061064358417365ce8d8281b39738b3a9dd96dfe862c22fd754718a42d4f74",
+        "final_sha256": "78061064358417365ce8d8281b39738b3a9dd96dfe862c22fd754718a42d4f74",
+        "match": true
+      },
+      {
+        "path": "references/capabilities/nesma-development-and-enhancement.md",
+        "v1_sha256": "62ce0cb1f7a909a9755f3598a73aad7788acc2a553382aecbf6d9e4dc23f33f0",
+        "final_sha256": "62ce0cb1f7a909a9755f3598a73aad7788acc2a553382aecbf6d9e4dc23f33f0",
+        "match": true
+      },
+      {
+        "path": "references/capabilities/nesma-elements-and-complexity.md",
+        "v1_sha256": "ea9b82bf2b6cac93cce4883988643a3fe1da0d2f2ad89a1e394f4c82fdb615cb",
+        "final_sha256": "ea9b82bf2b6cac93cce4883988643a3fe1da0d2f2ad89a1e394f4c82fdb615cb",
+        "match": true
+      },
+      {
+        "path": "references/capabilities/nesma-fp-aggregation.md",
+        "v1_sha256": "f232a0dd7627efd0ad34e30f3ef432e38c8088ec5828c680cf361bfa2149dc71",
+        "final_sha256": "f232a0dd7627efd0ad34e30f3ef432e38c8088ec5828c680cf361bfa2149dc71",
+        "match": true
+      },
+      {
+        "path": "references/capabilities/nesma-fpa-table-groups.md",
+        "v1_sha256": "39926963b355fbd31fe6a03932f951316d88ecaa0ea3522ece8ce1ee4d7a6dcd",
+        "final_sha256": "39926963b355fbd31fe6a03932f951316d88ecaa0ea3522ece8ce1ee4d7a6dcd",
+        "match": true
+      },
+      {
+        "path": "references/capabilities/nesma-growth-classification.md",
+        "v1_sha256": "a15434985e33497f346e66fec621eda4a8cbb870a66ba1bd4be1d7d88428c303",
+        "final_sha256": "a15434985e33497f346e66fec621eda4a8cbb870a66ba1bd4be1d7d88428c303",
+        "match": true
+      },
+      {
+        "path": "references/capabilities/nesma-incomplete-specifications.md",
+        "v1_sha256": "572a1ff795d8bd3f98eb6904695611355710f150f91bcee62df6ae4fd83e5aab",
+        "final_sha256": "572a1ff795d8bd3f98eb6904695611355710f150f91bcee62df6ae4fd83e5aab",
+        "match": true
+      },
+      {
+        "path": "references/capabilities/nesma-indicative-sizing.md",
+        "v1_sha256": "6bf997527ad0289e5a722799d81431f1c1022d2edbcc38c7533f3860d6691136",
+        "final_sha256": "6bf997527ad0289e5a722799d81431f1c1022d2edbcc38c7533f3860d6691136",
+        "match": true
+      },
+      {
+        "path": "references/capabilities/nesma-logical-data-groups.md",
+        "v1_sha256": "0ca6d85b7b0b1e911c20ded596fd3b0c2d35926912dfcc43cc6b921982ab459e",
+        "final_sha256": "0ca6d85b7b0b1e911c20ded596fd3b0c2d35926912dfcc43cc6b921982ab459e",
+        "match": true
+      },
+      {
+        "path": "references/capabilities/nesma-scope-and-method.md",
+        "v1_sha256": "881efffad99dd36f38bbfc78fc9e43dbd928465983d8e3c3bb07a2c140d36459",
+        "final_sha256": "881efffad99dd36f38bbfc78fc9e43dbd928465983d8e3c3bb07a2c140d36459",
+        "match": true
+      },
+      {
+        "path": "references/capabilities/nesma-shared-data.md",
+        "v1_sha256": "23d28e504daf0755f82603614996bbbd5e1f0381a200d72021455edadc2be540",
+        "final_sha256": "23d28e504daf0755f82603614996bbbd5e1f0381a200d72021455edadc2be540",
+        "match": true
+      },
+      {
+        "path": "references/capabilities/nesma-special-functions.md",
+        "v1_sha256": "3b2309304f13f9d61ff47a688aa18b6597cb6076cb19f53045e1a11536789989",
+        "final_sha256": "3b2309304f13f9d61ff47a688aa18b6597cb6076cb19f53045e1a11536789989",
+        "match": true
+      },
+      {
+        "path": "references/capabilities/nesma-transaction-functions.md",
+        "v1_sha256": "ab4a01d557075d763b7ac51f452119835dc7804c8c851b7d9950e7c09383f3ce",
+        "final_sha256": "ab4a01d557075d763b7ac51f452119835dc7804c8c851b7d9950e7c09383f3ce",
+        "match": true
+      },
+      {
+        "path": "resources/calculator-examples.json",
+        "v1_sha256": "1bd4cfcb67f8f3c64c6e345e8ccc05c7e43bb7d628c1480d9c58290594553d52",
+        "final_sha256": "1bd4cfcb67f8f3c64c6e345e8ccc05c7e43bb7d628c1480d9c58290594553d52",
+        "match": true
+      },
+      {
+        "path": "resources/calculator-guide.md",
+        "v1_sha256": "e249f34cc1c65f066c788b291228904bd0ad6cfba4073b99133d752594754f6b",
+        "final_sha256": "e249f34cc1c65f066c788b291228904bd0ad6cfba4073b99133d752594754f6b",
+        "match": true
+      },
+      {
+        "path": "resources/failure-modes.json",
+        "v1_sha256": "fa1be17a97b279025bfd1d212471173be70a1cc93b4aa3990e64c55b912f9996",
+        "final_sha256": "fa1be17a97b279025bfd1d212471173be70a1cc93b4aa3990e64c55b912f9996",
+        "match": true
+      },
+      {
+        "path": "resources/measurement-template.json",
+        "v1_sha256": "4b4c8bd86f3efafa87172e5d3dbf12866ecab82fcbf0868062a03cef2325b005",
+        "final_sha256": "4b4c8bd86f3efafa87172e5d3dbf12866ecab82fcbf0868062a03cef2325b005",
+        "match": true
+      },
+      {
+        "path": "resources/nesma_calc.py",
+        "v1_sha256": "c33f0238d7057bb80dcab1f3251fa4aae91cc67c1b9d764b74e449269b469ebc",
+        "final_sha256": "c33f0238d7057bb80dcab1f3251fa4aae91cc67c1b9d764b74e449269b469ebc",
+        "match": true
+      },
+      {
+        "path": "resources/source-cases.json",
+        "v1_sha256": "8beda4ce607ea2f1000eec237310941b0b459107b959c8eeb6e4a21658416e22",
+        "final_sha256": "8beda4ce607ea2f1000eec237310941b0b459107b959c8eeb6e4a21658416e22",
+        "match": true
+      },
+      {
+        "path": "resources/source-issues.md",
+        "v1_sha256": "800639ba5cbedf5d6872b4332033e2b2a2c2cc4bf2b7f9a4968bfbb2bb69ddb8",
+        "final_sha256": "800639ba5cbedf5d6872b4332033e2b2a2c2cc4bf2b7f9a4968bfbb2bb69ddb8",
+        "match": true
+      }
+    ],
+    "bundle_schema": "pass",
+    "capability_schemas": "14 pass",
+    "note": "Compilation adds provenance manifests; comparison covers all tested runtime content. UTF-8 mode was required for the system quick_validate script on Windows."
+  },
+  "calculator": {
+    "calculator_sha256": "c33f0238d7057bb80dcab1f3251fa4aae91cc67c1b9d764b74e449269b469ebc",
+    "total": 216,
+    "passed": 216,
+    "failed": 0,
+    "coverage": "110 matrix boundary fixtures cover all 9 cells for each of 5 categories; formulas, source arithmetic, defaults, partial totals, invalid input and CLI file safety.",
+    "limits": "Deterministic arithmetic/interface tests only. They do not validate functional identification, semantic deduplication, DET/RET/FTR evidence, or the full skill. Appendix D figures merely reproduce the supplied assumptions."
+  },
+  "structure": {
+    "cangjie_validation": "0 errors, 0 warnings",
+    "skill_creator_validation": "Skill is valid!",
+    "runtime_files": 26,
+    "manifest_files": 1
+  },
+  "limitations": [
+    "Each variant used one batched execution context; no per-case independent run.",
+    "Exact model version and token cost unavailable; no matched token budget.",
+    "28 representative tasks ran in a temporary multi-entry form with the same final cards/resources.",
+    "The final single entry was additionally exercised by 2 regression and 2 unseen cases.",
+    "NR01-NR06 remain unresolved; passing a test does not establish official compliance."
+  ]
+}

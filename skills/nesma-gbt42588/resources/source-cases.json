@@ -1,0 +1,1750 @@
+{
+  "source_id": "gbt42588-2023",
+  "notice": "58条为原文示例记录，附录D的多个分步属于同一案例，不代表多个独立项目；其中分类与明细疑点见source-issues.md。source_pages为PDF页码，印刷页=PDF-4。",
+  "cases": [
+    {
+      "id": "c01",
+      "title": "表2：初始版本及两次增强的项目规模与应用规模",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "5.6.1 表2；参照5.5.3、5.6.4",
+      "source_pages": [
+        18
+      ],
+      "chunk_id": null,
+      "source_quote": "表2举例说明了如何确定项目和应用程序的功能规模以及两者之间的差异。",
+      "summary": "输入：初始新增1000；版本1新增200、删除40、修改前80/后100；版本2新增500、删除100、修改前220/后200。各列按相应版本计算，修改前后值不能混用。",
+      "bound_to": [
+        "项目规模与应用程序规模",
+        "增强前后基线"
+      ],
+      "outcome": "初始项目/应用均1000 FP；版本1项目200+100+40=340 FP，应用1000+200+100−80−40=1180 FP；版本2项目500+200+100=800 FP，应用1180+500+200−220−100=1560 FP。",
+      "tags": [
+        "case",
+        "worked_example",
+        "enhancement",
+        "recalculable"
+      ],
+      "task_ids": [
+        "T11"
+      ],
+      "verification": "所列页面原图已核验",
+      "inputs": {
+        "initial": 1000,
+        "v1": {
+          "ADD": 200,
+          "DEL": 40,
+          "CHGB": 80,
+          "CHGA": 100
+        },
+        "v2": {
+          "ADD": 500,
+          "DEL": 100,
+          "CHGB": 220,
+          "CHGA": 200
+        }
+      },
+      "source_note": "原表版本1修改前为80；OCR遗漏该格。表中无转换软件数值。"
+    },
+    {
+      "id": "c02",
+      "title": "并行子项目与可独立运行子系统的数据交换",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "5.6.2.2 b)",
+      "source_pages": [
+        19
+      ],
+      "chunk_id": null,
+      "source_quote": "如果子系统必须能够独立存在（例如，由于应用程序的分阶段实施或出于功能原因），那么子系统之间的数据交换也包含在每个子项目的功能规模中。",
+      "summary": "原文设一个应用被多个并行子项目分担，每个实现一个可独立存在的子系统。子系统接口属于各子项目范围，在应用整体边界内则不再跨越该边界。",
+      "bound_to": [
+        "边界决定计数",
+        "子项目汇总"
+      ],
+      "outcome": "项目各子项目规模之和可以高于应用规模；没有给出数量和FP。",
+      "tags": [
+        "case",
+        "worked_example",
+        "boundary",
+        "subproject"
+      ],
+      "task_ids": [
+        "T01",
+        "T11"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c03",
+      "title": "事务变更使数据功能在ELF与ILF之间转换",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "5.7.3 b)",
+      "source_pages": [
+        21
+      ],
+      "chunk_id": null,
+      "source_quote": "例如，因事务功能的功能变更而使得数据功能从外部逻辑文件变为内部逻辑文件或相反的变更。",
+      "summary": "因用户事务的功能变更，某逻辑数据组的维护职责改变，原文将ELF→ILF或ILF→ELF作为数据功能性质修改的例子。",
+      "bound_to": [
+        "数据功能修改判定"
+      ],
+      "outcome": "原文未给出功能点数；仅给出分类或计数处理。",
+      "tags": [
+        "case",
+        "worked_example",
+        "change",
+        "ILF",
+        "ELF"
+      ],
+      "task_ids": [
+        "T12"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c04",
+      "title": "DET由字母数字型改为纯数字型",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "5.7.4 b)",
+      "source_pages": [
+        21
+      ],
+      "chunk_id": null,
+      "source_quote": "数据类型改变（如从字母数字类型变为纯数字类型）；",
+      "summary": "原文以类型从字母数字改成纯数字说明DET修改；没有提供修改后的功能复杂度或工作量。",
+      "bound_to": [
+        "DET修改判定"
+      ],
+      "outcome": "原文未给出功能点数；仅给出分类或计数处理。",
+      "tags": [
+        "case",
+        "worked_example",
+        "DET",
+        "change"
+      ],
+      "task_ids": [
+        "T12",
+        "T09"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c05",
+      "title": "只有菜单材料时从“维护”和“显示”识别事务",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "5.8.2.3 c)",
+      "source_pages": [
+        22
+      ],
+      "chunk_id": null,
+      "source_quote": "在面对诸如“维护”这样的一个菜单选项时，可以识别出三个外部输入（新增、修改和删除）。",
+      "summary": "输入为套装软件的菜单结构。“维护”菜单可提示新增、修改、删除三个EI；“显示”可提示一个EQ或EO，仍须按实际功能判断。",
+      "bound_to": [
+        "不完整材料下识别事务"
+      ],
+      "outcome": "原文给出维护→3 EI、显示→1 EQ或1 EO；未给复杂度和FP。",
+      "tags": [
+        "case",
+        "worked_example",
+        "menu",
+        "package"
+      ],
+      "task_ids": [
+        "T13",
+        "T08"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c06",
+      "title": "屏幕、弹窗和打印机展示同一报表",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "5.8.3 e)；10.2.9、10.2.23为相同准则",
+      "source_pages": [
+        23,
+        47,
+        48
+      ],
+      "chunk_id": null,
+      "source_quote": "有时可通过不同的媒介（如显示屏、弹出窗口或打印机等）展示具有相同布局的报表。当逻辑处理相同时，则仅应对一个外部输出计数。",
+      "summary": "同一逻辑布局和相同逻辑处理的报表通过多个媒介提供。原文用此场景说明物理呈现形式并非独立事务数量。",
+      "bound_to": [
+        "事务去重",
+        "逻辑布局与处理"
+      ],
+      "outcome": "计1 EO；未给DET/FTR和FP。",
+      "tags": [
+        "case",
+        "worked_example",
+        "EO",
+        "deduplication"
+      ],
+      "task_ids": [
+        "T13",
+        "T14",
+        "T08"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c07",
+      "title": "“更改客户”出现在应用的多个位置",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "6.3",
+      "source_pages": [
+        27
+      ],
+      "chunk_id": null,
+      "source_quote": "例如“更改客户”的功能在一个应用程序中出现多次，只要这个功能是相同的，则只应被计数一次。",
+      "summary": "同一客户更改功能被多处入口或多位用户使用，不因出现次数而增加功能数量。",
+      "bound_to": [
+        "应用程序内功能去重"
+      ],
+      "outcome": "同一功能计1次。",
+      "tags": [
+        "case",
+        "worked_example",
+        "deduplication",
+        "customer"
+      ],
+      "task_ids": [
+        "T14",
+        "T15"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c08",
+      "title": "五种帮助类型与全屏可调用帮助",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "6.13",
+      "source_pages": [
+        29
+      ],
+      "chunk_id": null,
+      "source_quote": "如果在每个屏幕或窗口都可调用的帮助信息，那么只能将其整体计数为应用程序的一个外部查询。",
+      "summary": "原文列整个应用、屏幕/窗口、字段（含固定值列表）、交互向导、上下文索引等帮助类型。每一种帮助按EQ处理，同种帮助在每个屏幕可调用仍整体计一次；可维护帮助文本归FPA表。",
+      "bound_to": [
+        "帮助功能计数",
+        "帮助复杂度"
+      ],
+      "outcome": "详细分析中帮助EQ复杂度低；估算分析中为中。所列五种是类型示例，原文未声明某应用全部拥有五种。",
+      "tags": [
+        "case",
+        "worked_example",
+        "help",
+        "EQ"
+      ],
+      "task_ids": [
+        "T14",
+        "T05",
+        "T09"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c09",
+      "title": "日志、错误报告与事务消息",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "6.14；10.2.13—10.2.16",
+      "source_pages": [
+        29,
+        47
+      ],
+      "chunk_id": null,
+      "source_quote": "供多个事务功能调用或同一事务功能反复调用的功能消息（例如日志报告或错误报告）被计数为外部输出。",
+      "summary": "原文区分随特定EI/EO/EQ产生的消息与覆盖多个事务或重复运行情况的报告。前者全部消息合为一个相关DET，后者按EO识别；可维护消息实体视为FPA表，可能出错消息概述不另计EO。",
+      "bound_to": [
+        "消息与独立输出区分"
+      ],
+      "outcome": "依原文条件分类；未给报告数量、复杂度与FP。",
+      "tags": [
+        "case",
+        "worked_example",
+        "message",
+        "EO",
+        "DET"
+      ],
+      "task_ids": [
+        "T14",
+        "T08",
+        "T09"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c10",
+      "title": "按钮、菜单和功能键如何作为启动触发器计数",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "6.15、6.23 c)；9.3.1.2、11.3.1.10",
+      "source_pages": [
+        30,
+        38,
+        44,
+        50
+      ],
+      "chunk_id": null,
+      "source_quote": "触发一个事务，就计数为一个DET（不能多，也不能少）。",
+      "summary": "同一事务可能经多个菜单步骤、功能键、当前或其他事务屏幕的按钮激活。原文给这些入口作启动触发控制的例子，不按入口或步骤重复计DET；触发须来自应用外部。",
+      "bound_to": [
+        "启动控制信息DET"
+      ],
+      "outcome": "每个事务的启动触发计1 DET。",
+      "tags": [
+        "case",
+        "worked_example",
+        "DET",
+        "trigger"
+      ],
+      "task_ids": [
+        "T09",
+        "T14"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c11",
+      "title": "可选择列表与逐项浏览输出",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "6.16—6.17；9.2.24；10.2.20—10.2.21",
+      "source_pages": [
+        30,
+        44,
+        47
+      ],
+      "chunk_id": null,
+      "source_quote": "显示列表不是外部查询，因为列表的大小事先并不知晓。",
+      "summary": "原文描述选择界面、窗口、列表框、弹窗等；非唯一条件选出多项后，可从概要列表选择项目并逐项浏览详细信息。源于逻辑文件的列表按EO；源于FPA表的不另计独立功能；两者均非时按字段帮助。",
+      "bound_to": [
+        "EO/EQ区分",
+        "列表与浏览计数"
+      ],
+      "outcome": "浏览/滚动不增加额外功能或DET；列表识别按上述源数据分支处理。",
+      "tags": [
+        "case",
+        "worked_example",
+        "list",
+        "EO",
+        "EQ"
+      ],
+      "task_ids": [
+        "T08",
+        "T14"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c12",
+      "title": "FPA表示例1：单一组织名称和地址",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "6.20 a) 示例1",
+      "source_pages": [
+        30
+      ],
+      "chunk_id": null,
+      "source_quote": "示例1：含有特定组织数据（例如名称和地址）的实体类型；",
+      "summary": "该实体只能且必须包含一个数据项，属性可有多个；原文将特定组织名称和地址数据作为符合这一条件的FPA表例子。",
+      "bound_to": [
+        "FPA表单一数据项判定"
+      ],
+      "outcome": "原文未给出功能点数；仅给出分类或计数处理。",
+      "tags": [
+        "case",
+        "worked_example",
+        "FPA_table",
+        "positive"
+      ],
+      "task_ids": [
+        "T05"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c13",
+      "title": "FPA表示例2：化学元素常量表",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "6.20 b) 示例2",
+      "source_pages": [
+        30
+      ],
+      "chunk_id": null,
+      "source_quote": "示例2：实体类型“化学元素”：助记符，原子序号，描述（所有数据元素类型都是常量）；",
+      "summary": "化学元素实体包含助记符、原子序号、描述；所有数据元素原则上为常量，故属FPA表。",
+      "bound_to": [
+        "FPA表常量判定"
+      ],
+      "outcome": "原文未给出功能点数；仅给出分类或计数处理。",
+      "tags": [
+        "case",
+        "worked_example",
+        "FPA_table",
+        "positive"
+      ],
+      "task_ids": [
+        "T05"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c14",
+      "title": "FPA表示例3：功能类型赋值表",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "6.20 b) 示例3，回指4.9",
+      "source_pages": [
+        30
+      ],
+      "chunk_id": null,
+      "source_quote": "示例3：在4.9中所示的对功能类型进行赋值的功能点表，其中所有数据元素都是常量；",
+      "summary": "原文把本标准4.9的功能点赋值表本身作为常量数据实体的例子，用来说明FPA表判定。",
+      "bound_to": [
+        "FPA表常量判定"
+      ],
+      "outcome": "原文未给出功能点数；仅给出分类或计数处理。",
+      "tags": [
+        "case",
+        "worked_example",
+        "FPA_table",
+        "positive"
+      ],
+      "task_ids": [
+        "T05"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c15",
+      "title": "FPA表示例4：国家代码及多语言解释",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "6.20 c) 示例4",
+      "source_pages": [
+        31
+      ],
+      "chunk_id": null,
+      "source_quote": "示例4：国家：国家代码、国家英文名、国家法文名（例如中国、CN、CHINA）；",
+      "summary": "实体由国家键值与同类解释性描述组成。多个语言名称可同时作为同类解释，原文判作FPA表。",
+      "bound_to": [
+        "FPA表键值与解释描述"
+      ],
+      "outcome": "原文未给出功能点数；仅给出分类或计数处理。",
+      "tags": [
+        "case",
+        "worked_example",
+        "FPA_table",
+        "positive"
+      ],
+      "task_ids": [
+        "T05"
+      ],
+      "verification": "所列页面原图已核验",
+      "source_note": "示例括号中的“中国、CN、CHINA”按原文保存，不据此补写法文值。"
+    },
+    {
+      "id": "c16",
+      "title": "FPA表示例5：电话号码范围",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "6.20 d) 示例5",
+      "source_pages": [
+        31
+      ],
+      "chunk_id": null,
+      "source_quote": "示例5：电话号码范围，范围编号、最小的电话号码、最大的电话号码。",
+      "summary": "用独立范围编号作为键，另有最小和最大电话号码。原文以此说明含边界值、算法及最小/最大值的FPA表情形。",
+      "bound_to": [
+        "FPA表独立键与边界值"
+      ],
+      "outcome": "原文未给出功能点数；仅给出分类或计数处理。",
+      "tags": [
+        "case",
+        "worked_example",
+        "FPA_table",
+        "positive"
+      ],
+      "task_ids": [
+        "T05"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c17",
+      "title": "FPA表示例6反例：买方数据带地区名",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "6.20 非FPA表 b) 示例6",
+      "source_pages": [
+        31
+      ],
+      "chunk_id": null,
+      "source_quote": "示例6：买方数据，买方编号，买方姓名，地区名（地区名是不同的数据元素类型）。",
+      "summary": "买方编号、姓名之外增加不同类型的地区名，原文把它列在不是FPA表的实体类型中；仍需另判断独立成逻辑文件还是并入其他实体。",
+      "bound_to": [
+        "FPA表反例",
+        "逻辑实体归组"
+      ],
+      "outcome": "原文未给出功能点数；仅给出分类或计数处理。",
+      "tags": [
+        "case",
+        "worked_example",
+        "FPA_table",
+        "negative"
+      ],
+      "task_ids": [
+        "T05",
+        "T04"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c18",
+      "title": "FPA表反例：可变金额、税率和增值税百分比",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "6.20 非FPA表 a)",
+      "source_pages": [
+        31
+      ],
+      "chunk_id": null,
+      "source_quote": "实体类型中包括金额、税率、增值税百分比等数据，如果这些数据不是常量；",
+      "summary": "实体含金额、税率或增值税百分比且并非常量时，原文把它列为非FPA表。条件在于数据是否常量，不能仅凭“税率表”名称分类。",
+      "bound_to": [
+        "FPA表反例"
+      ],
+      "outcome": "原文未给出功能点数；仅给出分类或计数处理。",
+      "tags": [
+        "case",
+        "worked_example",
+        "FPA_table",
+        "negative"
+      ],
+      "task_ids": [
+        "T05"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c19",
+      "title": "数据模型外的汇总历史文件与模型内的临时文件",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "6.21.1 a)—b)",
+      "source_pages": [
+        31
+      ],
+      "chunk_id": null,
+      "source_quote": "不在规范化数据模型中的逻辑文件也必须被计数（例如，包含汇总数据的历史文件）",
+      "summary": "原文以汇总历史文件说明逻辑文件可能未画进规范化模型，以临时文件说明出现在模型内的实体可能不构成逻辑文件。",
+      "bound_to": [
+        "模型完整性与逻辑文件识别"
+      ],
+      "outcome": "存在与否不能只看模型；原文未给数量。",
+      "tags": [
+        "case",
+        "worked_example",
+        "historical_file",
+        "temporary_file"
+      ],
+      "task_ids": [
+        "T04",
+        "T07",
+        "T15"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c20",
+      "title": "键—键实体只有技术性日期/时间戳",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "6.21.2 b)—c)",
+      "source_pages": [
+        31,
+        32
+      ],
+      "chunk_id": null,
+      "source_quote": "附加属性本质上是技术性的（并非用户需求，例如日期/时间戳），无需计数为数据元素类型。",
+      "summary": "n:m键—键实体若除键外只有技术性日期/时间戳，这些属性不作为DET；若它们是唯一附加属性，则按无其他属性的键—键实体处理。若附加属性本质为功能需求，则进入实体归组判断。",
+      "bound_to": [
+        "关联实体识别",
+        "技术属性排除"
+      ],
+      "outcome": "技术性时间戳不计DET；键—键实体本身不赋值。相连的两个逻辑文件的引用属性按原文计DET。",
+      "tags": [
+        "case",
+        "worked_example",
+        "key_key",
+        "DET"
+      ],
+      "task_ids": [
+        "T04",
+        "T09"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c21",
+      "title": "项目和员工的工作关系：强制与可选",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "6.21.3",
+      "source_pages": [
+        32
+      ],
+      "chunk_id": null,
+      "source_quote": "假设业务规则是一个项目可以用多个员工（至少有一个），并且一个员工必须为一个项目工作，那么项目和员工之间的关系表示为1：N；",
+      "summary": "原文分别设项目至少一名员工且员工必须属某项目，以及员工不必为某项目工作；前者为1:N，后者为(1):N。还说明N端也可为可选。",
+      "bound_to": [
+        "业务约束转为关系性质"
+      ],
+      "outcome": "本例先得到关系性质；并未仅凭它为实际项目/员工给出全部逻辑文件计数。",
+      "tags": [
+        "case",
+        "worked_example",
+        "entity",
+        "cardinality"
+      ],
+      "task_ids": [
+        "T04"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c22",
+      "title": "图3：双向可选实体A/B",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "6.21.4 图3；6.21.5 表3",
+      "source_pages": [
+        32,
+        34
+      ],
+      "chunk_id": null,
+      "source_quote": "实体类型A和B在FPA中各自形成一个逻辑文件。",
+      "summary": "A、B间(1):(N)关系双向可选，两实体可各自独立存在。原图与表3给出两个逻辑文件。",
+      "bound_to": [
+        "实体独立与逻辑文件归组"
+      ],
+      "outcome": "2个LF（各按维护主体另判ILF/ELF）。",
+      "tags": [
+        "case",
+        "worked_example",
+        "entity",
+        "independence"
+      ],
+      "task_ids": [
+        "T04",
+        "T09"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c23",
+      "title": "图4：双向强制实体A/B",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "6.21.4 图4；6.21.5 表3",
+      "source_pages": [
+        32,
+        33,
+        34
+      ],
+      "chunk_id": null,
+      "source_quote": "实体类型A和B在FPA中共同形成一个逻辑文件。",
+      "summary": "A、B间1:N关系双向强制，任何一方都不能缺另一方独存，原文判实体依赖。",
+      "bound_to": [
+        "实体依赖与逻辑文件归组"
+      ],
+      "outcome": "1 LF、2 RET；DET取归组后的总和，内部引用属性去重按7.3.1.3/8.3.1.3处理。",
+      "tags": [
+        "case",
+        "worked_example",
+        "entity",
+        "dependence"
+      ],
+      "task_ids": [
+        "T04",
+        "T09"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c24",
+      "title": "图5：1:(N)关系删A时保留还是连带删B",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "6.21.4 图5；6.21.5 表3",
+      "source_pages": [
+        33,
+        34
+      ],
+      "chunk_id": null,
+      "source_quote": "在情况1中，我们认为B是依赖于A的实体；在情况2中，B是独立于A的实体。",
+      "summary": "分支1：删除A连带删除全部B，B对业务无独立意义，合并；分支2：有B关联时不准删A，需先处理或重新关联B，B独立。原文补充项目被删除通常不要求删除员工，所以员工通常独立。",
+      "bound_to": [
+        "删除规则验证实体依赖"
+      ],
+      "outcome": "分支1为1 LF、2 RET；分支2为2 LF。未给DET值和FP。",
+      "tags": [
+        "case",
+        "worked_example",
+        "entity",
+        "delete_test"
+      ],
+      "task_ids": [
+        "T04"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c25",
+      "title": "图6：(1):N关系删最后一个B时如何处理A",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "6.21.4 图6；6.21.5 表3",
+      "source_pages": [
+        34
+      ],
+      "chunk_id": null,
+      "source_quote": "在情况1中，我们认为A是依赖于B的实体；在情况2中，A是独立于B的实体。",
+      "summary": "分支1：删最后一个B即连带删A，A依赖；分支2：A仍关联时不准删最后一个B，要先删除或重新关联A，A独立。原文明确此关系实际中较少出现。",
+      "bound_to": [
+        "反向删除规则验证依赖"
+      ],
+      "outcome": "分支1为1 LF、2 RET；分支2为2 LF。",
+      "tags": [
+        "case",
+        "worked_example",
+        "entity",
+        "delete_test"
+      ],
+      "task_ids": [
+        "T04"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c26",
+      "title": "共享情形1：B直接使用A维护的客户信息",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "6.22 a) 图7",
+      "source_pages": [
+        35
+      ],
+      "chunk_id": null,
+      "source_quote": "对于应用程序A，“客户信息”是一个内部逻辑文件。对于应用程序B，“客户信息”是一个外部逻辑文件。",
+      "summary": "A维护永久客户信息，B使用A该文件的数据。相同数据组在两个应用边界下具有不同数据功能类别。",
+      "bound_to": [
+        "共享永久数据归属"
+      ],
+      "outcome": "A：客户信息1 ILF；B：客户信息1 ELF。",
+      "tags": [
+        "case",
+        "worked_example",
+        "shared_data",
+        "ILF",
+        "ELF"
+      ],
+      "task_ids": [
+        "T06",
+        "T07"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c27",
+      "title": "共享情形2：只用一次的完整客户副本",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "6.22 b) 图8",
+      "source_pages": [
+        35,
+        36
+      ],
+      "chunk_id": null,
+      "source_quote": "读入和处理“客户信息副本”是一个外部输入。",
+      "summary": "A在自己边界外为B提供客户信息副本；B将它处理到自身一个或多个ILF，副本数据只用一次。",
+      "bound_to": [
+        "事务文件与永久逻辑文件区分"
+      ],
+      "outcome": "A：原客户信息ILF，创建副本EO；B：读入并处理副本EI。副本在两边均不单计逻辑文件；B被维护ILF数量未给。",
+      "tags": [
+        "case",
+        "worked_example",
+        "shared_data",
+        "transaction_file"
+      ],
+      "task_ids": [
+        "T06"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c28",
+      "title": "共享情形3：A内部保留功能性客户摘录供B使用",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "6.22 c) 图9",
+      "source_pages": [
+        36
+      ],
+      "chunk_id": null,
+      "source_quote": "“客户信息摘录”也是应用程序A的内部逻辑文件。创建“客户信息摘录”是一个外部输出。",
+      "summary": "A出于功能原因定期提取客户信息，摘录仍在A边界内，可与客户当前数据不同；B使用摘录。",
+      "bound_to": [
+        "持久摘录与应用边界"
+      ],
+      "outcome": "A：客户信息ILF、客户信息摘录ILF、创建摘录EO；B：摘录ELF。",
+      "tags": [
+        "case",
+        "worked_example",
+        "shared_data",
+        "extract"
+      ],
+      "task_ids": [
+        "T06"
+      ],
+      "verification": "所列页面原图已核验",
+      "source_note": "原文明确将创建摘录列EO，按该情形保存，不扩展为所有内部数据生成过程都计EO。"
+    },
+    {
+      "id": "c29",
+      "title": "共享情形4：B直接持久保存收到的客户摘录",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "6.22 d) 图10",
+      "source_pages": [
+        36,
+        37
+      ],
+      "chunk_id": null,
+      "source_quote": "对于应用程序B，“客户信息副本”是一个内部逻辑文件。读取“客户信息摘录”是一个外部输入。",
+      "summary": "A将边界外的客户摘录分发；B读入后直接保存成客户信息副本，无其他处理。运输中的摘录与B保存的永久副本必须区分。",
+      "bound_to": [
+        "传输摘录与接收持久副本"
+      ],
+      "outcome": "A：客户信息ILF、创建摘录EO；B：副本ILF、读取摘录EI；摘录不是任何一方永久数据，不计LF。",
+      "tags": [
+        "case",
+        "worked_example",
+        "shared_data",
+        "persistent_copy"
+      ],
+      "task_ids": [
+        "T06"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c30",
+      "title": "共享情形5：B消耗一次性摘录更新自身数据",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "6.22 e) 图11",
+      "source_pages": [
+        37
+      ],
+      "chunk_id": null,
+      "source_quote": "“客户信息摘录”只被使用一次，因此不包含任何永久数据，也不计数为应用系统B的一个逻辑文件。",
+      "summary": "A把客户信息摘录放到边界外供B使用；B处理摘录以更新一个或多个自身ILF，摘录只用一次。",
+      "bound_to": [
+        "一次性摘录与事务计数"
+      ],
+      "outcome": "A：客户信息ILF、创建摘录EO；B：读入并处理摘录EI；摘录两侧均不计LF。",
+      "tags": [
+        "case",
+        "worked_example",
+        "shared_data",
+        "transaction_file"
+      ],
+      "task_ids": [
+        "T06"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c31",
+      "title": "工作、临时、排序与后台打印等技术文件",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "7.2.6；9.3.2.5；10.2.11",
+      "source_pages": [
+        39,
+        45,
+        47
+      ],
+      "chunk_id": null,
+      "source_quote": "出于技术上的原因被引入的文件不应该被计数（例如，工作文件、临时文件、中间文件、排序文件、打印文件、脱机文件等等）。",
+      "summary": "原文列技术文件类型，用于说明它们本身不计ILF或FTR；后台打印文件本身也不计EO。若技术文件替代底层逻辑文件，则复杂度须考虑底层逻辑文件。",
+      "bound_to": [
+        "技术实现文件排除"
+      ],
+      "outcome": "原文未给出功能点数；仅给出分类或计数处理。",
+      "tags": [
+        "case",
+        "worked_example",
+        "technical_file"
+      ],
+      "task_ids": [
+        "T07",
+        "T09",
+        "T14"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c32",
+      "title": "重启恢复机制的校验文件",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "7.2.7",
+      "source_pages": [
+        39
+      ],
+      "chunk_id": null,
+      "source_quote": "当用户请求重启恢复机制，可能需要一个校验文件，这个文件不应被计数。",
+      "summary": "用户请求恢复机制并不使其技术性校验文件自动成为逻辑文件。",
+      "bound_to": [
+        "技术文件排除"
+      ],
+      "outcome": "校验文件不计逻辑文件，也不用于复杂度。",
+      "tags": [
+        "case",
+        "worked_example",
+        "checkpoint"
+      ],
+      "task_ids": [
+        "T07",
+        "T09"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c33",
+      "title": "只维护派生数据的运行寄存器",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "7.2.12",
+      "source_pages": [
+        39
+      ],
+      "chunk_id": null,
+      "source_quote": "对于只维护派生数据的文件（例如正在运行的寄存器），只有当用户明确指定它们为数据时，才被视为内部逻辑文件组。",
+      "summary": "运行寄存器被用作派生数据文件示例：用户明确指定为数据时可按ILF识别；只因性能等技术原因加入则不计。",
+      "bound_to": [
+        "功能性持久数据与技术缓存区分"
+      ],
+      "outcome": "原文未给出功能点数；仅给出分类或计数处理。",
+      "tags": [
+        "case",
+        "worked_example",
+        "derived_data"
+      ],
+      "task_ids": [
+        "T07"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c34",
+      "title": "新增订单时引用产品并验证数据",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "9.1",
+      "source_pages": [
+        43
+      ],
+      "chunk_id": null,
+      "source_quote": "例如，添加新订单时，引用逻辑文件“产品”以查看产品是否可以被订购；",
+      "summary": "新增订单EI涉及产品文件引用和可订购性判断，还涉及验证所输入数据是否正确。原文用该情境解释EI的逻辑处理。",
+      "bound_to": [
+        "EI逻辑处理",
+        "文件引用"
+      ],
+      "outcome": "原文未给出功能点数；仅给出分类或计数处理。",
+      "tags": [
+        "case",
+        "worked_example",
+        "EI",
+        "order"
+      ],
+      "task_ids": [
+        "T08",
+        "T09"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c35",
+      "title": "新员工的姓名、薪资与家庭状况合成完整输入",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "9.1",
+      "source_pages": [
+        43
+      ],
+      "chunk_id": null,
+      "source_quote": "从用户角度看，输入员工信息是一个完整的过程，输入薪资和家庭状况信息是此过程的一部分，并非分开进行；",
+      "summary": "输入新员工时必须同时记录要求的薪资和家庭信息；只记姓名或只记薪资会使应用不稳定。",
+      "bound_to": [
+        "基本过程完整性与一致状态"
+      ],
+      "outcome": "作为完整输入过程识别；不把薪资和家庭信息输入拆成独立过程。",
+      "tags": [
+        "case",
+        "worked_example",
+        "EI",
+        "elementary_process"
+      ],
+      "task_ids": [
+        "T08"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c36",
+      "title": "消息/输入文件与自启动批处理输入",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "9.2.4",
+      "source_pages": [
+        43
+      ],
+      "chunk_id": null,
+      "source_quote": "外部输入可以由用户或其他应用程序激活，也可以自动激活（例如，自启动的批处理功能）。",
+      "summary": "原文以其他应用传来的输入文件或消息、自启动批处理说明EI不要求人工屏幕操作。",
+      "bound_to": [
+        "EI触发渠道"
+      ],
+      "outcome": "原文未给出功能点数；仅给出分类或计数处理。",
+      "tags": [
+        "case",
+        "worked_example",
+        "EI",
+        "batch"
+      ],
+      "task_ids": [
+        "T08",
+        "T14"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c37",
+      "title": "修改数据前请求确认",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "9.2.8",
+      "source_pages": [
+        43
+      ],
+      "chunk_id": null,
+      "source_quote": "在执行输入命令之前用于请求确认的外部输入（例如，修改数据）应计为一个外部输入，因为它与属于一个基本过程。",
+      "summary": "确认步骤属于同一修改基本过程，不因出现确认对话框多计EI。",
+      "bound_to": [
+        "基本过程与确认步骤"
+      ],
+      "outcome": "1 EI。",
+      "tags": [
+        "case",
+        "worked_example",
+        "EI",
+        "confirmation"
+      ],
+      "task_ids": [
+        "T08"
+      ],
+      "verification": "所列页面原图已核验",
+      "source_note": "引文保留原文“它与属于”的表述，不自行改为标准勘误。"
+    },
+    {
+      "id": "c38",
+      "title": "其他员工授权的两步输入",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "9.2.9",
+      "source_pages": [
+        43
+      ],
+      "chunk_id": null,
+      "source_quote": "初始输入与授权功能分别计为一个外部输入。每个步骤都是一个基本过程。",
+      "summary": "原文设新增、修改或删除分两步进行，例如另一员工授权输入；初始输入和授权各是独立基本过程。",
+      "bound_to": [
+        "独立授权过程识别"
+      ],
+      "outcome": "2 EI；若另有明确查询还可能识别EQ，原文未给具体EQ数量。",
+      "tags": [
+        "case",
+        "worked_example",
+        "EI",
+        "authorization"
+      ],
+      "task_ids": [
+        "T08"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c39",
+      "title": "修改屏幕连续显示输入文件的数据",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "9.2.14—9.2.16",
+      "source_pages": [
+        44
+      ],
+      "chunk_id": null,
+      "source_quote": "例如：连续显示输入文件中的数据时",
+      "summary": "修改/删除过程自动显示待处理数据，属于EI；如果用户另有单独定义的查询才另计EQ。",
+      "bound_to": [
+        "附属显示与独立查询区分"
+      ],
+      "outcome": "该自动显示不另计EQ。",
+      "tags": [
+        "case",
+        "worked_example",
+        "EI",
+        "EQ"
+      ],
+      "task_ids": [
+        "T08",
+        "T14"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c40",
+      "title": "事务文件头尾的总数和记录总数",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "9.2.23、9.3.1.7；10.2.18、10.3.1.10",
+      "source_pages": [
+        44,
+        47,
+        48
+      ],
+      "chunk_id": null,
+      "source_quote": "校验数据会被计为数据元素类型（如果用户要求）。",
+      "summary": "事务文件头尾含总数或记录总数等校验数据，处理头尾不另计EI/EO；用户要求的校验数据计DET。输出头记录可作标题，尾记录可作统计汇总。",
+      "bound_to": [
+        "头尾记录与DET"
+      ],
+      "outcome": "不新增独立事务；DET数量依原始字段类型，未给数字。",
+      "tags": [
+        "case",
+        "worked_example",
+        "header_trailer",
+        "DET"
+      ],
+      "task_ids": [
+        "T08",
+        "T09"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c41",
+      "title": "同屏增删改与跨屏选择、修改",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "9.3.1.3—9.3.1.4",
+      "source_pages": [
+        44
+      ],
+      "chunk_id": null,
+      "source_quote": "第一个屏幕输入选择数据，第二个屏幕修改数据",
+      "summary": "同屏可有新增、修改、删除多个EI，分别计各自DET；一个EI跨选择屏和修改屏时两屏视为一个整体。若非唯一选择先列多项再选，另识别列表EO。",
+      "bound_to": [
+        "事务与屏幕非一一对应",
+        "DET范围"
+      ],
+      "outcome": "原文未给出功能点数；仅给出分类或计数处理。",
+      "tags": [
+        "case",
+        "worked_example",
+        "screen",
+        "EI"
+      ],
+      "task_ids": [
+        "T08",
+        "T09"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c42",
+      "title": "更新客户时先回显姓名地址",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "9.3.1.6",
+      "source_pages": [
+        44
+      ],
+      "chunk_id": null,
+      "source_quote": "输入客户编号后，为了验证信息，应用程序首先显示客户的姓名和地址，之后用户可以输入其余的数据。",
+      "summary": "原文以更新客户为例，说明输入响应中显示的附加数据属于该EI的DET范围。",
+      "bound_to": [
+        "EI跨界数据元素计数"
+      ],
+      "outcome": "客户姓名、地址等回显数据纳入该EI相关DET；原文未给合计数。",
+      "tags": [
+        "case",
+        "worked_example",
+        "customer",
+        "DET"
+      ],
+      "task_ids": [
+        "T09"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c43",
+      "title": "处理输入事务文件时FTR不等于输入文件数",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "9.3.2.3—9.3.2.4",
+      "source_pages": [
+        45
+      ],
+      "chunk_id": null,
+      "source_quote": "使用输入文件来处理其数据的外部输入没有引用逻辑文件，除非内部逻辑文件被更新。",
+      "summary": "一次性输入事务文件不是被引用LF；若过程据它维护永久数据，需识别被维护ILF，不能把输入文件本身计为FTR。",
+      "bound_to": [
+        "事务文件与FTR"
+      ],
+      "outcome": "原文未给出功能点数；仅给出分类或计数处理。",
+      "tags": [
+        "case",
+        "worked_example",
+        "EI",
+        "FTR"
+      ],
+      "task_ids": [
+        "T06",
+        "T09"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c44",
+      "title": "员工列表与固定员工、小时工、总数统计",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "10.1",
+      "source_pages": [
+        46
+      ],
+      "chunk_id": null,
+      "source_quote": "当报告组织中的所有员工信息时，逻辑处理方式包含计算固定员工、小时工和所有员工总数所需的算法。",
+      "summary": "员工列表引用员工信息LF；输出员工组成与总数的报告涉及计算，原文用来阐释EO的引用及进一步数据处理。",
+      "bound_to": [
+        "EO逻辑处理与派生数据"
+      ],
+      "outcome": "原文未给出功能点数；仅给出分类或计数处理。",
+      "tags": [
+        "case",
+        "worked_example",
+        "EO",
+        "employee"
+      ],
+      "task_ids": [
+        "T08",
+        "T09"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c45",
+      "title": "打印某年份所有员工信息",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "10.1 示例1",
+      "source_pages": [
+        46
+      ],
+      "chunk_id": null,
+      "source_quote": "打印某年份所有员工信息。从用户角度看，输入选择数据，显示或打印所选员工信息是一个完整的处理过程。",
+      "summary": "年份等选择输入与所选员工信息输出组成同一完整过程，不把选择输入机械分为另一个EI。",
+      "bound_to": [
+        "EO基本过程完整性"
+      ],
+      "outcome": "作为一个完整EO过程处理；未给DET/FTR。",
+      "tags": [
+        "case",
+        "worked_example",
+        "EO",
+        "elementary_process"
+      ],
+      "task_ids": [
+        "T08"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c46",
+      "title": "发票系统输出特定区域客户消费文件",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "10.1 示例2",
+      "source_pages": [
+        46
+      ],
+      "chunk_id": null,
+      "source_quote": "选择居住在特定区域内的用户、查询消费量数据、构造输出文件以及发送该文件被视为一个整体。",
+      "summary": "发票管理应用为指定区域用户输出消费数据；选择用户、取数、构造文件和发送全数完成后，应用才达到原文所指一致状态。",
+      "bound_to": [
+        "EO基本过程一致状态"
+      ],
+      "outcome": "整套步骤为一个基本过程，未给FP。",
+      "tags": [
+        "case",
+        "worked_example",
+        "EO",
+        "invoice"
+      ],
+      "task_ids": [
+        "T08"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c47",
+      "title": "单个物理输出文件含多种记录或多套处理",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "10.2.7、10.2.10",
+      "source_pages": [
+        47
+      ],
+      "chunk_id": null,
+      "source_quote": "当文件中出现多个记录类型时，或者当几个不同的逻辑处理的输出被物理编译到一个外部输出文件里时。",
+      "summary": "原文提示输出文件可能汇合多个逻辑输出，应按可单独检索的布局或不同处理来识别，不能按文件个数直接数EO。",
+      "bound_to": [
+        "物理输出与逻辑输出"
+      ],
+      "outcome": "可能计多个EO；原文未给具体数量。",
+      "tags": [
+        "case",
+        "worked_example",
+        "EO",
+        "logical_layout"
+      ],
+      "task_ids": [
+        "T08",
+        "T14"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c48",
+      "title": "选择、排序、打印控制与平均值/小计/总计",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "10.2.5；10.3.1.2—10.3.1.4",
+      "source_pages": [
+        46,
+        47,
+        48
+      ],
+      "chunk_id": null,
+      "source_quote": "构成输出产品一部分的所有过程数据（例如，平均值，计算结果，小计和总计）均应计为数据元素类型。",
+      "summary": "原文列选择标准、所需介质/打印机、排序顺序、打印时间段等输出控制和平均值、小计、总计等输出数据作DET示例；控制输入属于EO，不另成EI。输出也出现的控制信息按原文计两次。",
+      "bound_to": [
+        "EO控制和派生DET"
+      ],
+      "outcome": "原文未给出功能点数；仅给出分类或计数处理。",
+      "tags": [
+        "case",
+        "worked_example",
+        "EO",
+        "DET"
+      ],
+      "task_ids": [
+        "T09"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c49",
+      "title": "与输入处理绑定的事务报告引用文件",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "10.2.16；10.3.2.2",
+      "source_pages": [
+        47,
+        48
+      ],
+      "chunk_id": null,
+      "source_quote": "多个事务处理报表的外部输出，此外部输出与用于处理事务的外部输入绑定在一起。",
+      "summary": "报告作为维护ILF的逻辑结果可识别为EO；若EO与处理事务的EI绑定，其FTR计整个数据处理涉及的LF，不能只看报告输出步骤。",
+      "bound_to": [
+        "绑定EO的FTR范围"
+      ],
+      "outcome": "原文未给出功能点数；仅给出分类或计数处理。",
+      "tags": [
+        "case",
+        "worked_example",
+        "EO",
+        "EI",
+        "FTR"
+      ],
+      "task_ids": [
+        "T08",
+        "T09"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c50",
+      "title": "员工查询引用员工文件并检查授权",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "11.1",
+      "source_pages": [
+        49
+      ],
+      "chunk_id": null,
+      "source_quote": "例如：在查询员工信息时，应用程序会检查用户是否已被授权查询此信息。",
+      "summary": "原文以员工查询说明EQ可包含文件引用及验证授权；引用相同文件但验证不同，也可能有不同逻辑处理。",
+      "bound_to": [
+        "EQ逻辑处理与验证"
+      ],
+      "outcome": "原文未给出功能点数；仅给出分类或计数处理。",
+      "tags": [
+        "case",
+        "worked_example",
+        "EQ",
+        "authorization"
+      ],
+      "task_ids": [
+        "T08",
+        "T09"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c51",
+      "title": "按产品编号查询产品资料",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "normative_context_example",
+      "source_chapter": "11.1",
+      "source_pages": [
+        49
+      ],
+      "chunk_id": null,
+      "source_quote": "根据产品编号查询产品数据。从用户角度看，输入产品编号和输出其相应产品数据是一个完整的处理过程。",
+      "summary": "唯一产品编号输入和相应产品资料输出构成一个完整查询；只执行输入或输出之一不满足原文的一致状态要求。",
+      "bound_to": [
+        "EQ唯一查询条件与基本过程"
+      ],
+      "outcome": "一个完整EQ；原文未给FP。",
+      "tags": [
+        "case",
+        "worked_example",
+        "EQ",
+        "product"
+      ],
+      "task_ids": [
+        "T08"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c52",
+      "title": "自主增长：更改客户时显现下拉清单需求",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "informative_appendix_example",
+      "source_chapter": "附录C C.2",
+      "source_pages": [
+        59
+      ],
+      "chunk_id": null,
+      "source_quote": "在变更客户时，界面展示下拉客户清单选择的选项",
+      "summary": "原文将更改客户过程中进一步明确下拉客户选择清单列为自主增长例子，用于说明原需求中隐含功能经细化显现。",
+      "bound_to": [
+        "自主增长与范围变更"
+      ],
+      "outcome": "原文归为自主增长，无新增FP数。",
+      "tags": [
+        "case",
+        "worked_example",
+        "growth",
+        "autonomous"
+      ],
+      "task_ids": [
+        "T16"
+      ],
+      "verification": "所列页面原图已核验"
+    },
+    {
+      "id": "c53",
+      "title": "范围变更：客户分组选项",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "informative_appendix_example",
+      "source_chapter": "附录C C.2",
+      "source_pages": [
+        59
+      ],
+      "chunk_id": null,
+      "source_quote": "经过适当操作后，系统仍具备客户分组的选项",
+      "summary": "原文将这段客户分组描述直接列为范围变更例子；原附录没有展开前后需求、分组规则或计数，不补造其业务细节。",
+      "bound_to": [
+        "自主增长与范围变更"
+      ],
+      "outcome": "原文归为范围变更，无新增FP数。",
+      "tags": [
+        "case",
+        "worked_example",
+        "growth",
+        "scope_change"
+      ],
+      "task_ids": [
+        "T16"
+      ],
+      "verification": "所列页面原图已核验",
+      "source_note": "保留“仍具备”的原文字样；不将其改写成具体新增功能事实。"
+    },
+    {
+      "id": "c54",
+      "title": "需求细化增长率算例：100到140/120/110及300到360",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "informative_appendix_example",
+      "source_chapter": "附录C 表C.1、C.4",
+      "source_pages": [
+        59
+      ],
+      "chunk_id": null,
+      "source_quote": "这些值仅仅是示例，通过经验数据创建，本身不存在普遍实用性。",
+      "summary": "表C.1分别以分析、概要设计、详细设计结束时100 FP为输入，示例增长率40%、20%、10%；C.4又以概要设计300 FP说明类比预测。三个100 FP是不同起算阶段的示例，不是连续相乘。",
+      "bound_to": [
+        "用组织经验解释规模增长"
+      ],
+      "outcome": "100×1.4=140 FP；100×1.2=120 FP；100×1.1=110 FP；300×1.2=360 FP。",
+      "tags": [
+        "case",
+        "worked_example",
+        "growth",
+        "recalculable"
+      ],
+      "task_ids": [
+        "T16"
+      ],
+      "verification": "所列页面原图已核验",
+      "limitations": "增长率不能当作普适定额；实际比例须依组织经验；范围变更还可能难以预测。"
+    },
+    {
+      "id": "c55",
+      "title": "客户管理案例的需求、用户、边界与功能识别",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "informative_appendix_example",
+      "source_chapter": "附录D D.1—D.4、D.6",
+      "source_pages": [
+        60,
+        61
+      ],
+      "chunk_id": null,
+      "source_quote": "本示例的主要目的是测量包含在“维护客户信息”功能开发项目中的软件规模，因此属于“增强型”项目功能点计数。",
+      "summary": "客户资料含基本信息与多种联系方式；经理选项来源为人事系统维护的员工信息。用户是浏览和维护客户关系信息的人员，边界为客户关系管理系统。6项操作是添加、Excel导入、修改、查询、统计、删除。原文识别客户信息ILF、员工信息ELF；添加/导入/修改/删除为4 EI，统计1 EO，查询1 EQ。",
+      "bound_to": [
+        "从需求到五类功能",
+        "范围与边界"
+      ],
+      "outcome": "按原文识别1 ILF、1 ELF、4 EI、1 EO、1 EQ；三种计算分别见c56—c58。",
+      "tags": [
+        "case",
+        "worked_example",
+        "customer",
+        "appendix_D"
+      ],
+      "task_ids": [
+        "T01",
+        "T07",
+        "T08",
+        "T17"
+      ],
+      "verification": "所列页面原图已核验",
+      "limitations": "是标准给出的演示案例，不是有项目时间/组织/结果数据的真实项目实证。D.1规定添加查身份证重复、修改查管理员密码、查询可返回多名匹配、统计数量及性别/年龄/学历/类型分布、删除有确认消息。"
+    },
+    {
+      "id": "c56",
+      "title": "客户管理预估：50 FP",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "informative_appendix_example",
+      "source_chapter": "附录D D.5，使用D.4分类",
+      "source_pages": [
+        61
+      ],
+      "chunk_id": null,
+      "source_quote": "FP=1×35+1×15=50",
+      "summary": "输入按案例已有分类：1个客户信息ILF、1个员工信息ELF；按正文5.2.1公式(1)的概念逻辑文件口径计算。",
+      "bound_to": [
+        "预估计算"
+      ],
+      "outcome": "1×35+1×15=50 FP。",
+      "tags": [
+        "case",
+        "worked_example",
+        "customer",
+        "recalculable"
+      ],
+      "task_ids": [
+        "T03",
+        "T17"
+      ],
+      "verification": "所列页面原图已核验",
+      "related_cases": [
+        "c55",
+        "c57",
+        "c58"
+      ],
+      "inputs": {
+        "ILF": 1,
+        "ELF": 1
+      }
+    },
+    {
+      "id": "c57",
+      "title": "客户管理估算：37 FP",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "informative_appendix_example",
+      "source_chapter": "附录D D.7，使用D.4、D.6分类",
+      "source_pages": [
+        61
+      ],
+      "chunk_id": null,
+      "source_quote": "FP=1×7+1×5+4×4+1×5+1×4=37",
+      "summary": "1 ILF与1 ELF取低复杂度权重7和5；4 EI、1 EO、1 EQ取中复杂度权重4、5、4。",
+      "bound_to": [
+        "估算计算与默认复杂度"
+      ],
+      "outcome": "7+5+16+5+4=37 FP。",
+      "tags": [
+        "case",
+        "worked_example",
+        "customer",
+        "recalculable"
+      ],
+      "task_ids": [
+        "T10",
+        "T17"
+      ],
+      "verification": "所列页面原图已核验",
+      "related_cases": [
+        "c55",
+        "c56",
+        "c58"
+      ]
+    },
+    {
+      "id": "c58",
+      "title": "客户管理详细算例：依原文条件仍为37 FP",
+      "type": "case",
+      "example_kind": "worked_example",
+      "source_class": "informative_appendix_example",
+      "source_chapter": "附录D D.8、表D.1",
+      "source_pages": [
+        61,
+        62
+      ],
+      "chunk_id": null,
+      "source_quote": "文件引用类型（FTR）：涉及客户信息和员工信息。合计：2FTRs。",
+      "summary": "客户信息ILF=11 DET、2 RET→低；员工ELF的DET/RET未知→原文取低。所有事务被集中给定11 DET、2 FTR，四项EI、统计EO、查询EQ均判中。客户11 DET列为姓名、身份证号、性别、出生日期、学历、职业、客户经理、固定电话、移动电话、电子邮件、通讯地址。",
+      "bound_to": [
+        "详细复杂度计算",
+        "案例假设审计"
+      ],
+      "outcome": "表D.1依次权重7、5、4、5、4；合计1×7+1×5+4×4+1×5+1×4=37 FP。",
+      "tags": [
+        "case",
+        "worked_example",
+        "customer",
+        "recalculable",
+        "source_issue"
+      ],
+      "task_ids": [
+        "T09",
+        "T10",
+        "T15",
+        "T17"
+      ],
+      "verification": "所列页面原图已核验",
+      "related_cases": [
+        "c55",
+        "c56",
+        "c57"
+      ],
+      "limitations": "采用原文给定分类与数量只能复现其算术；查询分类、逐事务DET/FTR、备注遗漏、增强范围等不能由本例材料独立证明。详细疑点见文件后表。"
+    }
+  ]
+}

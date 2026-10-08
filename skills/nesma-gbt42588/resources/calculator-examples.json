@@ -1,0 +1,16 @@
+{
+  "format": "Examples are requests; pass one request object per input file, not this catalog.",
+  "examples": [
+    {"name":"概念预估", "request":{"operation":"indicative","model":"conceptual","ilf":2,"elf":1},"expected":{"status":"calculated","total_fp":85}},
+    {"name":"规范化预估", "request":{"operation":"indicative","model":"normalized","netm":3,"nete":2},"expected":{"status":"calculated","total_fp":95}},
+    {"name":"中复杂度ILF", "request":{"operation":"complexity","method":"detailed","type":"ILF","det":20,"ret":2},"expected":{"status":"calculated","complexity":"medium","unit_fp":10}},
+    {"name":"缺数据不自动默认", "request":{"operation":"complexity","method":"detailed","type":"EI","ftr":2},"expected":{"status":"needs_input","missing":["det"]}},
+    {"name":"显式允许默认", "request":{"operation":"complexity","method":"detailed","type":"EI","ftr":2,"allow_defaults":true},"expected":{"status":"calculated_with_defaults","unit_fp":4}},
+    {"name":"帮助专门规则", "request":{"operation":"complexity","method":"detailed","type":"EQ","special":"help"},"expected":{"status":"calculated","unit_fp":3}},
+    {"name":"FPA标准事务待核查", "request":{"operation":"complexity","method":"detailed","type":"EO","special":"fpa_standard_transaction","det":20,"ftr":0,"allow_defaults":true},"expected":{"status":"needs_review","review_ids":["NR04"]}},
+    {"name":"估算汇总", "request":{"operation":"aggregate","method":"estimated","items":[{"id":"a","type":"ILF","count":2},{"id":"b","type":"ELF","count":1},{"id":"c","type":"EI","count":4},{"id":"d","type":"EO","count":2},{"id":"e","type":"EQ","count":3}]},"expected":{"status":"calculated","total_fp":57}},
+    {"name":"小计隔离未知项", "request":{"operation":"aggregate","method":"detailed","items":[{"id":"a","type":"ILF","count":1,"complexity":"low"},{"id":"b","type":null,"count":1,"state":"needs_input","reason":"返回规模和唯一性未知"}]},"expected":{"status":"partial","known_subtotal_fp":7,"unresolved_ids":["b"]},"absent_fields":["total_fp"]},
+    {"name":"增强与应用存量", "request":{"operation":"enhancement","baseline":200,"add":30,"deleted":10,"changed_before":20,"changed_after":25,"conversion":8},"expected":{"status":"calculated","project_core_fp":65,"project_fp":73,"application_fp":225}},
+    {"name":"开发含其他应用变更", "request":{"operation":"development","new_application":120,"conversion":8,"other_application_changes":15},"expected":{"status":"calculated","application_fp":120,"project_fp":143}}
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "template_notice": "此JSON是本次技能设计的记录契约，不是标准原表，也不是计算器输入；按具体任务填充，不能把null补成假设事实。",
+  "source_version": "GB/T 42588-2023",
+  "purpose": null,
+  "measurement_object": null,
+  "application_boundary": null,
+  "users": [],
+  "method": null,
+  "lifecycle_event": null,
+  "evidence_documents": [],
+  "functions": [
+    {
+      "id": null,
+      "requirement_id": null,
+      "name": null,
+      "type": null,
+      "business_facts": [],
+      "inclusion_reason": null,
+      "source_clause": null,
+      "dedup_key": null,
+      "det_items": [],
+      "ret_items": [],
+      "ftr_items": [],
+      "det": null,
+      "ret": null,
+      "ftr": null,
+      "complexity": null,
+      "default_basis": null,
+      "fp": null,
+      "state": null,
+      "assumptions": [],
+      "review_ids": []
+    }
+  ],
+  "change_ledger": {
+    "baseline_fp": null,
+    "add_fp": null,
+    "deleted_fp": null,
+    "changed_before_fp": null,
+    "changed_after_fp": null,
+    "conversion_fp": null,
+    "other_application_changes_fp": null
+  },
+  "totals": {
+    "known_subtotal_fp": null,
+    "application_fp": null,
+    "project_fp": null,
+    "is_complete": false
+  },
+  "open_questions": [],
+  "review_notes": []
+}

@@ -1,0 +1,398 @@
+{
+  "skill": "nesma-gbt42588",
+  "version": "0.1.0-bounded",
+  "test_cases": [
+    {
+      "id": "nesma-scope-and-method-1",
+      "type": "should_trigger",
+      "prompt": "按NESMA做订单系统测量前，先帮我明确应用边界和计数对象。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.scope-and-method",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-scope-and-method-2",
+      "type": "should_trigger",
+      "prompt": "我有逻辑文件和事务清单，没整理DET/FTR，该选预估、估算还是详细？",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.scope-and-method",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-scope-and-method-3",
+      "type": "should_trigger",
+      "prompt": "项目第一次计数，但已经到验收阶段。NESMA计数时点怎么标？",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.scope-and-method",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-scope-and-method-4",
+      "type": "should_trigger",
+      "prompt": "为这个软件项目准备NESMA测量，请列最小必需资料和范围说明。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.scope-and-method",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-scope-and-method-5",
+      "type": "should_trigger",
+      "prompt": "NESMA概念模型2ILF、1ELF，直接算预估FP。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.indicative-sizing",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-scope-and-method-6",
+      "type": "should_not_trigger",
+      "prompt": "帮我比较两家咖啡馆的装修预算。",
+      "expected_behavior": "不调用NESMA技能",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-scope-and-method-7",
+      "type": "edge_case",
+      "prompt": "只知道系统名，先确认NESMA测量还缺什么。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.scope-and-method",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-scope-and-method-8",
+      "type": "edge_case",
+      "prompt": "解释NESMA标准的整书结构，不做项目计数。",
+      "expected_behavior": "调用nesma-gbt42588；读取来源概览/术语参考",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-indicative-sizing-1",
+      "type": "should_trigger",
+      "prompt": "按NESMA概念模型3ILF、2ELF预估FP。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.indicative-sizing",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-indicative-sizing-2",
+      "type": "should_trigger",
+      "prompt": "第三范式模型维护4实体、引用3实体，无FPA表，按25/10算预估。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.indicative-sizing",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-indicative-sizing-3",
+      "type": "should_trigger",
+      "prompt": "比较35/15与25/10两条NESMA预估公式，并对我给的数量计算。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.indicative-sizing",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-indicative-sizing-4",
+      "type": "should_trigger",
+      "prompt": "NESMA indicative sizing: two conceptual ILFs and one ELF.",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.indicative-sizing",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-indicative-sizing-5",
+      "type": "should_trigger",
+      "prompt": "已识别五类清单，请按数据低事务中汇总估算FP。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.fp-aggregation",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-indicative-sizing-6",
+      "type": "should_not_trigger",
+      "prompt": "预估明天下雨概率。",
+      "expected_behavior": "不调用NESMA技能",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-indicative-sizing-7",
+      "type": "edge_case",
+      "prompt": "数据库有9张表，能否直接给NESMA预估FP？",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.indicative-sizing",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-indicative-sizing-8",
+      "type": "edge_case",
+      "prompt": "只问DET和RET两个缩写的含义。",
+      "expected_behavior": "调用nesma-gbt42588；读取来源概览/术语参考",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-shared-data-1",
+      "type": "should_trigger",
+      "prompt": "A维护永久客户数据，B直接读当前值，两边在NESMA里算ILF还是ELF？",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.shared-data",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-shared-data-2",
+      "type": "should_trigger",
+      "prompt": "A发一次性传输文件供B更新本地数据，按NESMA判断数据和事务归属。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.shared-data",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-shared-data-3",
+      "type": "should_trigger",
+      "prompt": "同一共享数据两应用各自维护，NESMA各算什么？",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.shared-data",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-shared-data-4",
+      "type": "should_trigger",
+      "prompt": "永久摘录与一次性副本在NESMA如何区别？",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.shared-data",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-shared-data-5",
+      "type": "should_trigger",
+      "prompt": "给我整个应用的NESMA重复和遗漏审查清单。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.count-review",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-shared-data-6",
+      "type": "should_not_trigger",
+      "prompt": "写一个Python脚本同步两个文件夹。",
+      "expected_behavior": "不调用NESMA技能",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-shared-data-7",
+      "type": "edge_case",
+      "prompt": "需求只说同步客户文件，帮我列出确定NESMA分类还需哪些事实。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.shared-data",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-shared-data-8",
+      "type": "edge_case",
+      "prompt": "先定义整个项目测量边界，还没到共享数据识别。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.scope-and-method",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-fp-aggregation-1",
+      "type": "should_trigger",
+      "prompt": "已有去重后的ILF、ELF、EI、EO、EQ数量，按NESMA估算合计。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.fp-aggregation",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-fp-aggregation-2",
+      "type": "should_trigger",
+      "prompt": "这些功能类别和复杂度已核实，请赋权重并汇总详细FP。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.fp-aggregation",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-fp-aggregation-3",
+      "type": "should_trigger",
+      "prompt": "NESMA estimated count: 3 ILF, 2 ELF, 5 EI, 2 EO, 4 EQ.",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.fp-aggregation",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-fp-aggregation-4",
+      "type": "should_trigger",
+      "prompt": "我有完整FP明细，请核对分类权重和合计算术。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.fp-aggregation",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-fp-aggregation-5",
+      "type": "should_trigger",
+      "prompt": "按基线、增删改计算增强后的应用存量和项目规模。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.development-and-enhancement",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-fp-aggregation-6",
+      "type": "should_not_trigger",
+      "prompt": "求1到100的整数和。",
+      "expected_behavior": "不调用NESMA技能",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-fp-aggregation-7",
+      "type": "edge_case",
+      "prompt": "清单里一项类别未明，其余已计7FP，请给小计并说明完整性。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.fp-aggregation",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-fp-aggregation-8",
+      "type": "edge_case",
+      "prompt": "这个业务过程是EQ还是EO？先帮我分类，不汇总。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.transaction-functions",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-development-and-enhancement-1",
+      "type": "should_trigger",
+      "prompt": "用NESMA基线和ADD/DEL/CHGB/CHGA分别算项目规模、应用存量。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.development-and-enhancement",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-development-and-enhancement-2",
+      "type": "should_trigger",
+      "prompt": "同功能完整重建，含一次性转换，NESMA项目怎么算？",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.development-and-enhancement",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-development-and-enhancement-3",
+      "type": "should_trigger",
+      "prompt": "字段长度变了但FP权重不变，NESMA增强项目是不是零？",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.development-and-enhancement",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-development-and-enhancement-4",
+      "type": "should_trigger",
+      "prompt": "新建应用100FP、转换8FP、其他应用改动12FP，汇总开发项目。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.development-and-enhancement",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-development-and-enhancement-5",
+      "type": "should_trigger",
+      "prompt": "只对现有完整五类清单做估算加总，没有变更。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.fp-aggregation",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-development-and-enhancement-6",
+      "type": "should_not_trigger",
+      "prompt": "帮我增强这张照片的亮度。",
+      "expected_behavior": "不调用NESMA技能",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-development-and-enhancement-7",
+      "type": "edge_case",
+      "prompt": "修改前规模缺失，NESMA哪些增强结果还能确定？",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.development-and-enhancement",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-development-and-enhancement-8",
+      "type": "edge_case",
+      "prompt": "这是需求细化还是用户新增范围？先分类增长原因。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.growth-classification",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-growth-classification-1",
+      "type": "should_trigger",
+      "prompt": "订单需求细化和新加仓储模块，NESMA里怎么区分自主增长与范围变更？",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.growth-classification",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-growth-classification-2",
+      "type": "should_trigger",
+      "prompt": "帮我按需求基线整理功能规模增长原因，不先算变更FP。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.growth-classification",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-growth-classification-3",
+      "type": "should_trigger",
+      "prompt": "NESMA autonomous growth versus scope change，已有需求证据，帮我分类。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.growth-classification",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-growth-classification-4",
+      "type": "should_trigger",
+      "prompt": "多个阶段FP变化，如何记录隐含需求和新增范围？",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.growth-classification",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-growth-classification-5",
+      "type": "should_trigger",
+      "prompt": "新增删除修改规模已经确定，求增强项目FP。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.development-and-enhancement",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-growth-classification-6",
+      "type": "should_not_trigger",
+      "prompt": "预测股票明年增长率。",
+      "expected_behavior": "不调用NESMA技能",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-growth-classification-7",
+      "type": "edge_case",
+      "prompt": "没有组织历史数据，可以直接拿附录C的40%预测规模吗？",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.growth-classification",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-growth-classification-8",
+      "type": "edge_case",
+      "prompt": "为了预算开始第一次NESMA测量，选择方法和时点。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.scope-and-method",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-gbt42588-router-1",
+      "type": "should_trigger",
+      "prompt": "客户查询可能返回多条并计算金额，按国标识别EO/EQ。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.transaction-functions",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-gbt42588-router-2",
+      "type": "should_trigger",
+      "prompt": "普通EI的DET/FTR怎样数，给复杂度矩阵。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.elements-and-complexity",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-gbt42588-router-3",
+      "type": "should_trigger",
+      "prompt": "同一种帮助在多个窗口出现，NESMA如何计数？",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.special-functions",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-gbt42588-router-4",
+      "type": "should_trigger",
+      "prompt": "按NESMA审查这份清单的重复、漏项及没有维护事务的问题。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.count-review",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-gbt42588-router-5",
+      "type": "should_trigger",
+      "prompt": "已有概念模型ILF/ELF数量，只算预估FP。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.indicative-sizing",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-gbt42588-router-6",
+      "type": "should_not_trigger",
+      "prompt": "帮我写一个数据库查询SQL。",
+      "expected_behavior": "不调用NESMA技能",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-gbt42588-router-7",
+      "type": "edge_case",
+      "prompt": "解释这本国标的结构与主要术语。",
+      "expected_behavior": "调用nesma-gbt42588；读取来源概览/术语参考",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    },
+    {
+      "id": "nesma-gbt42588-router-8",
+      "type": "edge_case",
+      "prompt": "只有客户查询四个字，先问我缺哪些分类条件。",
+      "expected_behavior": "调用nesma-gbt42588；路由至cap.gbt42588-2023.transaction-functions",
+      "notes": "从已预注册的同一56题按用户最终single选择转换入口标签，未改变任务或路由预期；这不是额外56题。"
+    }
+  ]
+}

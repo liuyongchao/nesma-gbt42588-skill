@@ -1,0 +1,456 @@
+{
+  "planned": 56,
+  "completed": 56,
+  "single_passed": 56,
+  "notes": "Independent clean-context judgement from only names/descriptions and intent catalog. This is trigger/routing evidence, not actual task execution. Same 56 prompts assessed in two catalog modes; not 112 independent contexts.",
+  "results": [
+    {
+      "case_id": "nesma-scope-and-method-1",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.scope-and-method",
+      "single_actual_capability": "cap.gbt42588-2023.scope-and-method",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-scope-and-method-2",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.scope-and-method",
+      "single_actual_capability": "cap.gbt42588-2023.scope-and-method",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-scope-and-method-3",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.scope-and-method",
+      "single_actual_capability": "cap.gbt42588-2023.scope-and-method",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-scope-and-method-4",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.scope-and-method",
+      "single_actual_capability": "cap.gbt42588-2023.scope-and-method",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-scope-and-method-5",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.indicative-sizing",
+      "single_actual_capability": "cap.gbt42588-2023.indicative-sizing",
+      "type": "should_not_trigger"
+    },
+    {
+      "case_id": "nesma-scope-and-method-6",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": null,
+      "single_actual_capability": null,
+      "type": "should_not_trigger"
+    },
+    {
+      "case_id": "nesma-scope-and-method-7",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.scope-and-method",
+      "single_actual_capability": "cap.gbt42588-2023.scope-and-method",
+      "type": "edge_case"
+    },
+    {
+      "case_id": "nesma-scope-and-method-8",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": null,
+      "single_actual_capability": null,
+      "type": "edge_case"
+    },
+    {
+      "case_id": "nesma-indicative-sizing-1",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.indicative-sizing",
+      "single_actual_capability": "cap.gbt42588-2023.indicative-sizing",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-indicative-sizing-2",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.indicative-sizing",
+      "single_actual_capability": "cap.gbt42588-2023.indicative-sizing",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-indicative-sizing-3",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.indicative-sizing",
+      "single_actual_capability": "cap.gbt42588-2023.indicative-sizing",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-indicative-sizing-4",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.indicative-sizing",
+      "single_actual_capability": "cap.gbt42588-2023.indicative-sizing",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-indicative-sizing-5",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.fp-aggregation",
+      "single_actual_capability": "cap.gbt42588-2023.fp-aggregation",
+      "type": "should_not_trigger"
+    },
+    {
+      "case_id": "nesma-indicative-sizing-6",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": null,
+      "single_actual_capability": null,
+      "type": "should_not_trigger"
+    },
+    {
+      "case_id": "nesma-indicative-sizing-7",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.indicative-sizing",
+      "single_actual_capability": "cap.gbt42588-2023.indicative-sizing",
+      "type": "edge_case"
+    },
+    {
+      "case_id": "nesma-indicative-sizing-8",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": null,
+      "single_actual_capability": null,
+      "type": "edge_case"
+    },
+    {
+      "case_id": "nesma-shared-data-1",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.shared-data",
+      "single_actual_capability": "cap.gbt42588-2023.shared-data",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-shared-data-2",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.shared-data",
+      "single_actual_capability": "cap.gbt42588-2023.shared-data",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-shared-data-3",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.shared-data",
+      "single_actual_capability": "cap.gbt42588-2023.shared-data",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-shared-data-4",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.shared-data",
+      "single_actual_capability": "cap.gbt42588-2023.shared-data",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-shared-data-5",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.count-review",
+      "single_actual_capability": "cap.gbt42588-2023.count-review",
+      "type": "should_not_trigger"
+    },
+    {
+      "case_id": "nesma-shared-data-6",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": null,
+      "single_actual_capability": null,
+      "type": "should_not_trigger"
+    },
+    {
+      "case_id": "nesma-shared-data-7",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.shared-data",
+      "single_actual_capability": "cap.gbt42588-2023.shared-data",
+      "type": "edge_case"
+    },
+    {
+      "case_id": "nesma-shared-data-8",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.scope-and-method",
+      "single_actual_capability": "cap.gbt42588-2023.scope-and-method",
+      "type": "edge_case"
+    },
+    {
+      "case_id": "nesma-fp-aggregation-1",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.fp-aggregation",
+      "single_actual_capability": "cap.gbt42588-2023.fp-aggregation",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-fp-aggregation-2",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.fp-aggregation",
+      "single_actual_capability": "cap.gbt42588-2023.fp-aggregation",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-fp-aggregation-3",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.fp-aggregation",
+      "single_actual_capability": "cap.gbt42588-2023.fp-aggregation",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-fp-aggregation-4",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.fp-aggregation",
+      "single_actual_capability": "cap.gbt42588-2023.fp-aggregation",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-fp-aggregation-5",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.development-and-enhancement",
+      "single_actual_capability": "cap.gbt42588-2023.development-and-enhancement",
+      "type": "should_not_trigger"
+    },
+    {
+      "case_id": "nesma-fp-aggregation-6",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": null,
+      "single_actual_capability": null,
+      "type": "should_not_trigger"
+    },
+    {
+      "case_id": "nesma-fp-aggregation-7",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.fp-aggregation",
+      "single_actual_capability": "cap.gbt42588-2023.fp-aggregation",
+      "type": "edge_case"
+    },
+    {
+      "case_id": "nesma-fp-aggregation-8",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.transaction-functions",
+      "single_actual_capability": "cap.gbt42588-2023.transaction-functions",
+      "type": "edge_case"
+    },
+    {
+      "case_id": "nesma-development-and-enhancement-1",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.development-and-enhancement",
+      "single_actual_capability": "cap.gbt42588-2023.development-and-enhancement",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-development-and-enhancement-2",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.development-and-enhancement",
+      "single_actual_capability": "cap.gbt42588-2023.development-and-enhancement",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-development-and-enhancement-3",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.development-and-enhancement",
+      "single_actual_capability": "cap.gbt42588-2023.development-and-enhancement",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-development-and-enhancement-4",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.development-and-enhancement",
+      "single_actual_capability": "cap.gbt42588-2023.development-and-enhancement",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-development-and-enhancement-5",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.fp-aggregation",
+      "single_actual_capability": "cap.gbt42588-2023.fp-aggregation",
+      "type": "should_not_trigger"
+    },
+    {
+      "case_id": "nesma-development-and-enhancement-6",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": null,
+      "single_actual_capability": null,
+      "type": "should_not_trigger"
+    },
+    {
+      "case_id": "nesma-development-and-enhancement-7",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.development-and-enhancement",
+      "single_actual_capability": "cap.gbt42588-2023.development-and-enhancement",
+      "type": "edge_case"
+    },
+    {
+      "case_id": "nesma-development-and-enhancement-8",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.growth-classification",
+      "single_actual_capability": "cap.gbt42588-2023.growth-classification",
+      "type": "edge_case"
+    },
+    {
+      "case_id": "nesma-growth-classification-1",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.growth-classification",
+      "single_actual_capability": "cap.gbt42588-2023.growth-classification",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-growth-classification-2",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.growth-classification",
+      "single_actual_capability": "cap.gbt42588-2023.growth-classification",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-growth-classification-3",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.growth-classification",
+      "single_actual_capability": "cap.gbt42588-2023.growth-classification",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-growth-classification-4",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.growth-classification",
+      "single_actual_capability": "cap.gbt42588-2023.growth-classification",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-growth-classification-5",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.development-and-enhancement",
+      "single_actual_capability": "cap.gbt42588-2023.development-and-enhancement",
+      "type": "should_not_trigger"
+    },
+    {
+      "case_id": "nesma-growth-classification-6",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": null,
+      "single_actual_capability": null,
+      "type": "should_not_trigger"
+    },
+    {
+      "case_id": "nesma-growth-classification-7",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.growth-classification",
+      "single_actual_capability": "cap.gbt42588-2023.growth-classification",
+      "type": "edge_case"
+    },
+    {
+      "case_id": "nesma-growth-classification-8",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.scope-and-method",
+      "single_actual_capability": "cap.gbt42588-2023.scope-and-method",
+      "type": "edge_case"
+    },
+    {
+      "case_id": "nesma-gbt42588-router-1",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.transaction-functions",
+      "single_actual_capability": "cap.gbt42588-2023.transaction-functions",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-gbt42588-router-2",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.elements-and-complexity",
+      "single_actual_capability": "cap.gbt42588-2023.elements-and-complexity",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-gbt42588-router-3",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.special-functions",
+      "single_actual_capability": "cap.gbt42588-2023.special-functions",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-gbt42588-router-4",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.count-review",
+      "single_actual_capability": "cap.gbt42588-2023.count-review",
+      "type": "should_trigger"
+    },
+    {
+      "case_id": "nesma-gbt42588-router-5",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.indicative-sizing",
+      "single_actual_capability": "cap.gbt42588-2023.indicative-sizing",
+      "type": "should_not_trigger"
+    },
+    {
+      "case_id": "nesma-gbt42588-router-6",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": null,
+      "single_actual_capability": null,
+      "type": "should_not_trigger"
+    },
+    {
+      "case_id": "nesma-gbt42588-router-7",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": null,
+      "single_actual_capability": null,
+      "type": "edge_case"
+    },
+    {
+      "case_id": "nesma-gbt42588-router-8",
+      "completed": true,
+      "single_pass": true,
+      "expected_capability": "cap.gbt42588-2023.transaction-functions",
+      "single_actual_capability": "cap.gbt42588-2023.transaction-functions",
+      "type": "edge_case"
+    }
+  ]
+}

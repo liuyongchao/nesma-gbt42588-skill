@@ -1,0 +1,51 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\nesma-count-review.md": "8008e8c18406f2ca1ba81af530ee5e55ba712145c5c90c848f6dc7c5c8353e75",
+    "references\\capabilities\\nesma-data-functions.md": "78061064358417365ce8d8281b39738b3a9dd96dfe862c22fd754718a42d4f74",
+    "references\\capabilities\\nesma-development-and-enhancement.md": "62ce0cb1f7a909a9755f3598a73aad7788acc2a553382aecbf6d9e4dc23f33f0",
+    "references\\capabilities\\nesma-elements-and-complexity.md": "ea9b82bf2b6cac93cce4883988643a3fe1da0d2f2ad89a1e394f4c82fdb615cb",
+    "references\\capabilities\\nesma-fp-aggregation.md": "f232a0dd7627efd0ad34e30f3ef432e38c8088ec5828c680cf361bfa2149dc71",
+    "references\\capabilities\\nesma-fpa-table-groups.md": "39926963b355fbd31fe6a03932f951316d88ecaa0ea3522ece8ce1ee4d7a6dcd",
+    "references\\capabilities\\nesma-growth-classification.md": "a15434985e33497f346e66fec621eda4a8cbb870a66ba1bd4be1d7d88428c303",
+    "references\\capabilities\\nesma-incomplete-specifications.md": "572a1ff795d8bd3f98eb6904695611355710f150f91bcee62df6ae4fd83e5aab",
+    "references\\capabilities\\nesma-indicative-sizing.md": "6bf997527ad0289e5a722799d81431f1c1022d2edbcc38c7533f3860d6691136",
+    "references\\capabilities\\nesma-logical-data-groups.md": "0ca6d85b7b0b1e911c20ded596fd3b0c2d35926912dfcc43cc6b921982ab459e",
+    "references\\capabilities\\nesma-scope-and-method.md": "881efffad99dd36f38bbfc78fc9e43dbd928465983d8e3c3bb07a2c140d36459",
+    "references\\capabilities\\nesma-shared-data.md": "23d28e504daf0755f82603614996bbbd5e1f0381a200d72021455edadc2be540",
+    "references\\capabilities\\nesma-special-functions.md": "3b2309304f13f9d61ff47a688aa18b6597cb6076cb19f53045e1a11536789989",
+    "references\\capabilities\\nesma-transaction-functions.md": "ab4a01d557075d763b7ac51f452119835dc7804c8c851b7d9950e7c09383f3ce",
+    "references\\capability-index.md": "d4ca70c662758aba6a29015c7601d648be0d71d95a5942eccf52c4acdf9ef75c",
+    "references\\cheatsheet.md": "d57cbda2efc64b2efdbbf17b3215a743b6899b2d791656e53ca253620ed267de",
+    "references\\glossary.md": "f7b6490fd3475f67453491ce28e8704cd87de23694c0fecbdf5bfbe08fac657a",
+    "references\\overview.md": "2a2be1cde3bdc291b123315a77ebd0ec7487d6989139a0c3f0448ee733bfc717",
+    "resources\\calculator-examples.json": "1bd4cfcb67f8f3c64c6e345e8ccc05c7e43bb7d628c1480d9c58290594553d52",
+    "resources\\calculator-guide.md": "e249f34cc1c65f066c788b291228904bd0ad6cfba4073b99133d752594754f6b",
+    "resources\\failure-modes.json": "fa1be17a97b279025bfd1d212471173be70a1cc93b4aa3990e64c55b912f9996",
+    "resources\\measurement-template.json": "4b4c8bd86f3efafa87172e5d3dbf12866ecab82fcbf0868062a03cef2325b005",
+    "resources\\nesma_calc.py": "c33f0238d7057bb80dcab1f3251fa4aae91cc67c1b9d764b74e449269b469ebc",
+    "resources\\source-cases.json": "8beda4ce607ea2f1000eec237310941b0b459107b959c8eeb6e4a21658416e22",
+    "resources\\source-issues.md": "800639ba5cbedf5d6872b4332033e2b2a2c2cc4bf2b7f9a4968bfbb2bb69ddb8",
+    "SKILL.md": "77d3e021ea578099b37074cf846dffa3daf5c6772d5d66a2afd95dbc1629fbd0"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.nesma-gbt42588-2023",
+  "bundle_sha256": "389c180bd4ead8075bba5411f490da57095c487256004776461687d98d431eeb",
+  "variant": "single",
+  "run_id": "run-20261008-202758-58ec57",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 6,
+    "capability_count": 14,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 6 个晋级 Skill，共 7 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}
